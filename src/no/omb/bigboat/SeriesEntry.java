@@ -13,7 +13,8 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 		"Oslofjorden Rundt",
 		"Håøya Rundt",
 		"Hurum Golden Cup",
-		"Ulabrand"};
+		"Ulabrand",
+		"Nesodden Høstcup"};
 
 	public static final int SCORE_FACTOR = 10;
 	public static final int DEFAULT_SCORE = 12;
