@@ -4,12 +4,14 @@ public class Boat {
 
 	private String sailNo;
 	private String boatName;
+	private String boatType;
 	private String skipper;
 	private String club;
 
-	public Boat(String sailNo, String boatName, String skipper, String club) {
+	public Boat(String sailNo, String boatName, String boatType, String skipper, String club) {
 		this.sailNo = sailNo;
 		this.boatName = boatName;
+		this.boatType = boatType;
 		this.skipper = skipper;
 		this.club = club;
 	}
@@ -58,6 +60,12 @@ public class Boat {
 	public void setBoatName(String boatName) {
 		this.boatName = boatName;
 	}
+	public String getBoatType() {
+		return boatType;
+	}
+	public void setBoatTypee(String boatType) {
+		this.boatType = boatType;
+	}
 	public String getSkipper() {
 		return skipper;
 	}
@@ -72,7 +80,7 @@ public class Boat {
 	}
 
 	public String toString() {
-		return getSailNo() + BigBoat.SEP + getBoatName() + BigBoat.SEP + getSkipper() + BigBoat.SEP + getClub();
+		return getSailNo() + BigBoat.SEP + getBoatName() + BigBoat.SEP + getSkipper() + BigBoat.SEP + getBoatType() + BigBoat.SEP + getClub();
 	}
 
 }
