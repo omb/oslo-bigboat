@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -17,8 +18,8 @@ import au.com.bytecode.opencsv.CSVWriter;
 
 public class BigBoat {
 	
-	private static final String DATA = "data";
-	private static final String RESULTS = "results";
+	private static final String DATA = "data-2015";
+	private static final String RESULTS = "results-2015";
 	private static final String CHARSET = "ISO-8859-1";
 	public static final char SEP = ';';
 	public static final int CLUB_MAX_SCORES = 5;
@@ -56,7 +57,7 @@ public class BigBoat {
 	}
 
 	private static List<RaceEntry> parseEntries(List<String[]> entries) {
-		List<RaceEntry> raceEntries = new ArrayList<RaceEntry>();
+		List<RaceEntry> raceEntries = new ArrayList<>();
 		int classStartIndex = findClassStart(entries, 0);
 		while (classStartIndex != -1) {
 			int classSize = findClassSize(entries, classStartIndex);
@@ -86,7 +87,7 @@ public class BigBoat {
 		RaceEntry entry = new RaceEntry();
 		try {
 			entry.setPlaceNo(Integer.parseInt(col[0]));
-			entry.setBoat(new Boat(col[1], col[2], col[3], col[5]));
+			entry.setBoat(new Boat(col[1], col[2], col[5], col[3], col[4]));
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Error in line: " + col);
@@ -183,8 +184,10 @@ public class BigBoat {
 	private static void logClubs() {
 		List<ClubEntry> list = getSortedClubs();
 		System.out.println("\nBeste seilforening\n===================");
+		int place = 1;
 		for (ClubEntry clubEntry : list) {
-			System.out.println(clubEntry);
+			System.out.println("" + place + SEP + clubEntry);
+			++place;
 		}
 	}
 
@@ -201,8 +204,10 @@ public class BigBoat {
 	private static void logRaces() {
 		for (String race : SeriesEntry.races) {
 			System.out.println(race + "\n===================");
+			int place = 1;
 			for (RaceEntry entry : raceResults.get(race)) {
-				System.out.println(entry);
+				System.out.println("" + place + SEP + entry);
+				++place;
 			}
 			System.out.println("\n");
 		}
@@ -223,9 +228,11 @@ public class BigBoat {
 			FileOutputStream os = new FileOutputStream(fileName);
 			writer = new CSVWriter(new OutputStreamWriter(os, CHARSET), ';', CSVWriter.NO_QUOTE_CHARACTER);
 			writer.writeNext(getRaceResultHeader().split(String.valueOf(SEP)));
+			int place = 1;
 			for (RaceEntry entry : raceResults.get(race)) {
 				String[] line = entry.toString().split(String.valueOf(SEP));
-				writer.writeNext(line);
+				writer.writeNext(addPlace(line, place));
+				place++;
 			}
 			writer.close();
 		}
@@ -238,7 +245,7 @@ public class BigBoat {
 	}
 
 	private static String getRaceResultHeader() {
-		return "Seilnr;Båt;Skipper;Forening;Plass;Poeng";
+		return "Plass;Seilnr;Båt;Skipper;Båttype;Forening;Plass i klasse;Poeng";
 	}
 
 	private static void writeSeriesResultFile() {
@@ -249,9 +256,11 @@ public class BigBoat {
 			FileOutputStream os = new FileOutputStream(fileName);
 			writer = new CSVWriter(new OutputStreamWriter(os, CHARSET), ';', CSVWriter.NO_QUOTE_CHARACTER);
 			writer.writeNext(getSeriesResultHeader().split(String.valueOf(SEP)));
+			int place = 1;
 			for (SeriesEntry entry : list) {
 				String[] line = entry.toString().split(String.valueOf(SEP));
-				writer.writeNext(line);
+				writer.writeNext(addPlace(line, place));
+				place++;
 			}
 			writer.close();
 		}
@@ -264,7 +273,7 @@ public class BigBoat {
 	}
 
 	private static String getSeriesResultHeader() {
-		StringBuilder sb = new StringBuilder("Seilnr;Båt;Skipper;Seilforening");
+		StringBuilder sb = new StringBuilder("Plass;Seilnr;Båt;Skipper;Båttype;Seilforening");
 		for (String race : SeriesEntry.races) {
 			sb.append(";Poeng ");
 			sb.append(race);
@@ -281,9 +290,11 @@ public class BigBoat {
 			FileOutputStream os = new FileOutputStream(fileName);
 			writer = new CSVWriter(new OutputStreamWriter(os, CHARSET), ';', CSVWriter.NO_QUOTE_CHARACTER);
 			writer.writeNext(getClubsResultHeader().split(String.valueOf(SEP)));
+			int place = 1;
 			for (ClubEntry entry : list) {
 				String[] line = entry.toString().split(String.valueOf(SEP));
-				writer.writeNext(line);
+				writer.writeNext(addPlace(line, place));
+				place++;
 			}
 			writer.close();
 		}
@@ -296,7 +307,15 @@ public class BigBoat {
 	}
 
 	private static String getClubsResultHeader() {
-		return "Seilforening;Snitt";
+		return "Plass;Seilforening;Snitt";
+	}
+
+	private static String[] addPlace(String[] line, int place) {
+		List<String> newLine = new ArrayList<>();
+		newLine.add(Integer.toString(place));
+		newLine.addAll(Arrays.asList(line));
+		String[] newArr = new String[newLine.size()];
+		return newLine.toArray(newArr);
 	}
 
 }
