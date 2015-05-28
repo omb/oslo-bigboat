@@ -8,6 +8,9 @@ import java.util.Map;
 public class SeriesEntry implements Comparable<SeriesEntry>{
 
 	public static final String[] races = {
+		"Isbrytern"};
+
+	public static final String[] all_races = {
 		"Isbrytern",
 		"Bundefjorden Rundt",
 		"Oslofjorden Rundt",
@@ -15,10 +18,10 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 		"Hurum Golden Cup",
 		"Ulabrand",
 		"Nesodden Høstcup"};
-
+	
 	public static final int SCORE_FACTOR = 10;
 	public static final int DEFAULT_SCORE = 12;
-	public static final int CANCELS = 2;
+	public static final int CANCELS = 0;
 
 	private Boat boat;
 	private double score;
