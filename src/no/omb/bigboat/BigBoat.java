@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -18,8 +19,9 @@ import au.com.bytecode.opencsv.CSVWriter;
 
 public class BigBoat {
 	
-	private static final String DATA = "data-2015";
-	private static final String RESULTS = "results-2015";
+	private static final String YEAR = "2015";
+	private static final String DATA = "data-" + YEAR;
+	private static final String RESULTS = "results-" + YEAR;
 	private static final String CHARSET = "ISO-8859-1";
 	public static final char SEP = ';';
 	public static final int CLUB_MAX_SCORES = 5;
@@ -194,7 +196,7 @@ public class BigBoat {
 	private static void logSeries() {
 		List<SeriesEntry> list = getSortedSeries();
 		int place = 1;
-		System.out.println("Sammenlagt, " + SeriesEntry.CANCELS + " strykning(er)\n===========================");
+		System.out.println("Sammenlagt, " + getStrykningerString() + "\n===========================");
 		for (SeriesEntry seriesEntry : list) {
 			System.out.println("" + place + SEP + seriesEntry);
 			++place;
@@ -217,6 +219,7 @@ public class BigBoat {
 		for (String race : SeriesEntry.races) {
 			writeRaceResultFile(race);
 		}
+		writeSeriesResultHtml();
 		writeSeriesResultFile();
 		writeClubsResultFile();
 	}
@@ -248,6 +251,70 @@ public class BigBoat {
 		return "Plass;Seilnr;Båt;Skipper;Båttype;Forening;Plass i klasse;Poeng";
 	}
 
+	private static void writeSeriesResultHtml() {
+		String fileName = RESULTS + "/" + "IndreOslofjordBigBoatSeries" + YEAR + ".html";
+		List<SeriesEntry> seriesList = getSortedSeries();
+		List<ClubEntry> clubList = getSortedClubs();
+		PrintWriter writer;
+		try {
+			writer = new PrintWriter(fileName, CHARSET);
+			writeSeriesResultHtmlOpen(writer);
+			writer.println("<h1>Indre Oslofjord Bigboat Series 2015</h1>");
+			writer.println("<h2>Resultater sammenlagt " + getRegattaerString() + ", " + getStrykningerString() + "</h2>");
+			writer.println("<table>");
+			writeSeriesResultHtmlRow(writer, true, getSeriesResultHeader().split(String.valueOf(SEP)));
+			int place = 1;
+			for (SeriesEntry entry : seriesList) {
+				String[] line = entry.toString().split(String.valueOf(SEP));
+				writeSeriesResultHtmlRow(writer, false, addPlace(line, place));
+				place++;
+			}
+			writer.println("</table>");
+			writer.println("<h2>Beste seilforening</h2>");
+			writer.println("<table>");
+			writeSeriesResultHtmlRow(writer, true, getClubsResultHeader().split(String.valueOf(SEP)));
+			place = 1;
+			for (ClubEntry entry : clubList) {
+				String[] line = entry.toString().split(String.valueOf(SEP));
+				writeSeriesResultHtmlRow(writer, false, addPlace(line, place));
+				place++;
+			}
+			writer.println("</table>");
+			writeSeriesResultHtmlClose(writer);
+			writer.close();
+		}
+		catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private static void writeSeriesResultHtmlRow(PrintWriter writer, boolean isHeader, String[] columns) {
+		final String elem = isHeader ? "th" : "td";
+		writer.print("<tr>");
+		for (String column : columns) {
+			writer.printf("<%s>%s</%s>", elem, column, elem);
+		}
+		writer.println("</tr>");
+	}
+
+	private static void writeSeriesResultHtmlOpen(PrintWriter writer) {
+		writer.println("<!DOCTYPE html>");
+		writer.println("<html>");
+		writer.println("  <head>");
+		writer.println("    <title>Indre Oslofjord Bigboat Series 2015</title>");
+		writer.println("    <meta charset=\"" + CHARSET + "\">");
+		writer.println("  </head>");
+		writer.println("  <body>");
+	}
+
+	private static void writeSeriesResultHtmlClose(PrintWriter writer) {
+		writer.println("  </body>");
+		writer.println("</html>");
+	}
+	
 	private static void writeSeriesResultFile() {
 		String fileName = RESULTS + "/" + "sammenlagt" + ".csv";
 		List<SeriesEntry> list = getSortedSeries();
@@ -318,4 +385,17 @@ public class BigBoat {
 		return newLine.toArray(newArr);
 	}
 
+	private static String getRegattaerString() {
+		final String suffix = SeriesEntry.races.length != 1 ? "er" : "";
+		return "etter " +  SeriesEntry.races.length + " regatta" + suffix;
+	}
+	
+	@SuppressWarnings("all")
+	private static String getStrykningerString() {
+		final String prefix = SeriesEntry.CANCELS == 0 ? "ingen" : "" + SeriesEntry.CANCELS;
+		final String suffix = SeriesEntry.CANCELS != 1 ? "er" : "";
+		return prefix + " strykning" + suffix;
+	}
+
 }
+
