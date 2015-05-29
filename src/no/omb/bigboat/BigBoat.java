@@ -262,21 +262,21 @@ public class BigBoat {
 			writer.println("<h1>Indre Oslofjord Bigboat Series 2015</h1>");
 			writer.println("<h2>Resultater sammenlagt " + getRegattaerString() + ", " + getStrykningerString() + "</h2>");
 			writer.println("<table>");
-			writeSeriesResultHtmlRow(writer, true, getSeriesResultHeader().split(String.valueOf(SEP)));
+			writeSeriesResultHtmlRow(writer, true, false, getSeriesResultHeader().split(String.valueOf(SEP)));
 			int place = 1;
 			for (SeriesEntry entry : seriesList) {
 				String[] line = entry.toString().split(String.valueOf(SEP));
-				writeSeriesResultHtmlRow(writer, false, addPlace(line, place));
+				writeSeriesResultHtmlRow(writer, false, place%2==0, addPlace(line, place));
 				place++;
 			}
 			writer.println("</table>");
 			writer.println("<h2>Beste seilforening</h2>");
 			writer.println("<table>");
-			writeSeriesResultHtmlRow(writer, true, getClubsResultHeader().split(String.valueOf(SEP)));
+			writeSeriesResultHtmlRow(writer, true, false, getClubsResultHeader().split(String.valueOf(SEP)));
 			place = 1;
 			for (ClubEntry entry : clubList) {
 				String[] line = entry.toString().split(String.valueOf(SEP));
-				writeSeriesResultHtmlRow(writer, false, addPlace(line, place));
+				writeSeriesResultHtmlRow(writer, false, place%2==0, addPlace(line, place));
 				place++;
 			}
 			writer.println("</table>");
@@ -291,9 +291,10 @@ public class BigBoat {
 		}
 	}
 
-	private static void writeSeriesResultHtmlRow(PrintWriter writer, boolean isHeader, String[] columns) {
+	private static void writeSeriesResultHtmlRow(PrintWriter writer, boolean isHeader, boolean alt, String[] columns) {
 		final String elem = isHeader ? "th" : "td";
-		writer.print("<tr>");
+		final String css = alt ? " class=\"alt\"" : "";
+		writer.print("<tr" + css +">");
 		for (String column : columns) {
 			writer.printf("<%s>%s</%s>", elem, column, elem);
 		}
@@ -302,10 +303,35 @@ public class BigBoat {
 
 	private static void writeSeriesResultHtmlOpen(PrintWriter writer) {
 		writer.println("<!DOCTYPE html>");
-		writer.println("<html>");
+		writer.println("<html lang=\"no\">");
 		writer.println("  <head>");
-		writer.println("    <title>Indre Oslofjord Bigboat Series 2015</title>");
 		writer.println("    <meta charset=\"" + CHARSET + "\">");
+		writer.println("    <title>Indre Oslofjord Bigboat Series 2015</title>");
+		writer.println("    <link rel=\"stylesheet\" media=\"screen\" href=\"style.css\">");
+		writer.println("    <style>");
+		writer.println("      h1, h2, table {");
+		writer.println("        font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;");
+		writer.println("      }");
+		writer.println("      table {");
+		writer.println("        border-collapse: collapse;");
+		writer.println("      }");
+		writer.println("      td, th {");
+		writer.println("        font-size: 1em;");
+		writer.println("        border: 1px solid gray;");
+		writer.println("        padding: 3px 7px 2px 7px;");
+		writer.println("      }");
+		writer.println("      th {");
+		writer.println("        font-size: 1.1em;");
+		writer.println("        text-align: left;");
+		writer.println("        padding-top: 5px;");
+		writer.println("        padding-bottom: 4px;");
+		writer.println("        background-image: url(http://www.xul.fr/en/css/table-shaded.png);");
+		writer.println("      }");
+		writer.println("      tr.alt td, th {");
+		writer.println("        color: #000000;");
+		writer.println("        background-color: #E8E8FF;");
+		writer.println("      }");
+		writer.println("    </style>");
 		writer.println("  </head>");
 		writer.println("  <body>");
 	}
