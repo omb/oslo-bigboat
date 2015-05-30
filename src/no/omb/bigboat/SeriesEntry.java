@@ -8,7 +8,9 @@ import java.util.Map;
 public class SeriesEntry implements Comparable<SeriesEntry>{
 
 	public static final String[] races = {
-		"Isbrytern"};
+		"Isbrytern",
+		"Oslofjorden Rundt",
+		};
 
 	public static final String[] all_races = {
 		"Isbrytern",
