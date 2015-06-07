@@ -7,27 +7,13 @@ import java.util.Map;
 
 public class SeriesEntry implements Comparable<SeriesEntry>{
 
-	public static final String[] races = {
-		"Isbrytern",
-		"Oslofjorden Rundt",
-		};
-
-	public static final String[] all_races = {
-		"Isbrytern",
-		"Bundefjorden Rundt",
-		"Oslofjorden Rundt",
-		"Håøya Rundt",
-		"Hurum Golden Cup",
-		"Ulabrand",
-		"Nesodden Høstcup"};
-	
 	public static final int SCORE_FACTOR = 10;
 	public static final int DEFAULT_SCORE = 12;
 	public static final int CANCELS = 0;
 
 	private Boat boat;
 	private double score;
-	private Map<String, RaceEntry> raceEntries = new HashMap<String, RaceEntry>();
+	private Map<RaceData, RaceEntry> raceEntries = new HashMap<>();
 
 	public SeriesEntry(Boat boat) {
 		this.boat = boat;
@@ -45,14 +31,14 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 		this.score = score;
 	}
 
-	public Map<String, RaceEntry> getRaceEntries() {
+	public Map<RaceData, RaceEntry> getRaceEntries() {
 		return raceEntries;
 	}
 
 	public void computeSeriesScore() {
-		double[] scores = new double[races.length];
+		double[] scores = new double[RaceData.races.length];
 		int ix = 0;
-		for (; ix < SeriesEntry.races.length - raceEntries.size(); ++ix) {
+		for (; ix < RaceData.races.length - raceEntries.size(); ++ix) {
 			scores[ix] = SeriesEntry.DEFAULT_SCORE;
 		}
 		for (RaceEntry raceEntry : raceEntries.values()) {
@@ -61,7 +47,7 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 		}
 		Arrays.sort(scores);
 		score = 0;
-		for (ix = 0; ix < SeriesEntry.races.length - SeriesEntry.CANCELS; ++ix) {			
+		for (ix = 0; ix < RaceData.races.length - SeriesEntry.CANCELS; ++ix) {			
 			score = score + scores[ix];
 		}
 	}
@@ -70,7 +56,7 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 	public String toString() {
 		DecimalFormat df = new DecimalFormat("#0.00");
 		StringBuilder sb = new StringBuilder(boat.toString());
-		for (String race : SeriesEntry.races) {
+		for (RaceData race : RaceData.races) {
 			sb.append(BigBoat.SEP);
 			if (raceEntries.containsKey(race)) {
 				sb.append(df.format(raceEntries.get(race).getScore()));
