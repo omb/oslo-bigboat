@@ -1,6 +1,8 @@
-package no.omb.bigboat;
+package no.omb.bigboat.data;
 
 import java.text.DecimalFormat;
+
+import no.omb.bigboat.BigBoat;
 
 public class RaceEntry implements Comparable<RaceEntry> {
 

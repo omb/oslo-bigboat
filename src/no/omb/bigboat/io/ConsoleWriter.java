@@ -3,10 +3,10 @@ package no.omb.bigboat.io;
 import java.util.List;
 
 import no.omb.bigboat.BigBoat;
-import no.omb.bigboat.ClubEntry;
-import no.omb.bigboat.RaceData;
-import no.omb.bigboat.RaceEntry;
-import no.omb.bigboat.SeriesEntry;
+import no.omb.bigboat.data.ClubEntry;
+import no.omb.bigboat.data.RaceData;
+import no.omb.bigboat.data.RaceEntry;
+import no.omb.bigboat.data.SeriesEntry;
 
 public class ConsoleWriter extends AbstractWriter {
 

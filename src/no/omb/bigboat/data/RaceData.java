@@ -1,4 +1,4 @@
-package no.omb.bigboat;
+package no.omb.bigboat.data;
 
 public class RaceData {
 

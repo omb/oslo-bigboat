@@ -6,6 +6,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import no.omb.bigboat.data.Boat;
+import no.omb.bigboat.data.ClubEntry;
+import no.omb.bigboat.data.RaceData;
+import no.omb.bigboat.data.RaceEntry;
+import no.omb.bigboat.data.SeriesEntry;
 import no.omb.bigboat.io.ConsoleWriter;
 import no.omb.bigboat.io.CsvReader;
 import no.omb.bigboat.io.CsvWriter;

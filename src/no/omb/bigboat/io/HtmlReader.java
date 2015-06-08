@@ -12,10 +12,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import no.omb.bigboat.BigBoat;
-import no.omb.bigboat.Boat;
-import no.omb.bigboat.RaceData;
-import no.omb.bigboat.RaceEntry;
-import no.omb.bigboat.SeriesEntry;
+import no.omb.bigboat.data.Boat;
+import no.omb.bigboat.data.RaceData;
+import no.omb.bigboat.data.RaceEntry;
+import no.omb.bigboat.data.SeriesEntry;
 
 public class HtmlReader implements DataReader {
 

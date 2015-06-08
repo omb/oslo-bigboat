@@ -1,4 +1,6 @@
-package no.omb.bigboat;
+package no.omb.bigboat.data;
+
+import no.omb.bigboat.BigBoat;
 
 public class Boat {
 

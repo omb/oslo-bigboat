@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import no.omb.bigboat.RaceData;
-import no.omb.bigboat.SeriesEntry;
+import no.omb.bigboat.data.RaceData;
+import no.omb.bigboat.data.SeriesEntry;
 
 public abstract class AbstractWriter {
 

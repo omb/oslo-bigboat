@@ -6,8 +6,8 @@ import java.io.PrintWriter;
 import java.util.List;
 
 import no.omb.bigboat.BigBoat;
-import no.omb.bigboat.ClubEntry;
-import no.omb.bigboat.SeriesEntry;
+import no.omb.bigboat.data.ClubEntry;
+import no.omb.bigboat.data.SeriesEntry;
 
 public class HtmlWriter extends AbstractWriter {
 

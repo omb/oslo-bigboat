@@ -9,10 +9,10 @@ import java.util.Collections;
 import java.util.List;
 
 import no.omb.bigboat.BigBoat;
-import no.omb.bigboat.Boat;
-import no.omb.bigboat.RaceData;
-import no.omb.bigboat.RaceEntry;
-import no.omb.bigboat.SeriesEntry;
+import no.omb.bigboat.data.Boat;
+import no.omb.bigboat.data.RaceData;
+import no.omb.bigboat.data.RaceEntry;
+import no.omb.bigboat.data.SeriesEntry;
 import au.com.bytecode.opencsv.CSVReader;
 
 public class CsvReader implements DataReader {
