@@ -5,7 +5,7 @@ public class RaceData {
 	public static final RaceData[] races = {
 		new RaceData("Isbrytern", DataFileType.SEILMAG_CSV),
 		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV),
-		new RaceData("Bundefjorden Rundt", DataFileType.SAILWAVE_HTML)
+		new RaceData("Bundefjorden Rundt", DataFileType.SAILWAVE_RACE_HTML),
 	};
 
 	public static final String[] all_races = {
@@ -19,7 +19,8 @@ public class RaceData {
 
 	public enum DataFileType {
 		SEILMAG_CSV,
-		SAILWAVE_HTML
+		SAILWAVE_RACE_HTML,
+		SAILWAVE_SUMMARY_HTML
 	}
 
 	private DataFileType dataFileType;

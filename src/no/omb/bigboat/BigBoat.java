@@ -117,7 +117,8 @@ public class BigBoat {
 
 	private static DataReader getDataReader(RaceData race) {
 		switch (race.getDataFileType()) {
-		case SAILWAVE_HTML:
+		case SAILWAVE_RACE_HTML:
+		case SAILWAVE_SUMMARY_HTML:
 			return HtmlReader.getInstance();
 		case SEILMAG_CSV:
 			return CsvReader.getInstance();
