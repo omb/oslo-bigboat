@@ -6,6 +6,7 @@ public class RaceData {
 		new RaceData("Isbrytern", DataFileType.SEILMAG_CSV),
 		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV),
 		new RaceData("Bundefjorden Rundt", DataFileType.SAILWAVE_RACE_HTML),
+		new RaceData("Håøya Rundt", DataFileType.SEILMAG_CSV),
 	};
 
 	public static final String[] all_races = {

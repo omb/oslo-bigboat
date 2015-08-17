@@ -1,0 +1,25 @@
+
+11MOD
+Plass;Seilnr;Båt;Skipper;Forening;Båttype;Poeng;Race 1;
+1;NOR-161;Eriksen Kran;Finn Eriksen;Drøbaksund Seilforening;11MOD;1;1;
+2;NOR-243;NN;Thore Hammarstrøm;Drøbaksund Seilforening;11MOD;2;2;
+NOR rating <= 0,974
+Plass;Seilnr;Båt;Skipper;Forening;Båttype;HCP;Poeng;Race 1;
+1;NOR-10203;Jakobine;Yngve Lønmo;Hurum Seilforening;J/92;0,927;1;1;
+2;NOR-9660;Andante;Terje Hall Torgersen;Bundefjorden Seilforening; X-332;0,951;2;2;
+3;NOR-13975;Sparkling Girl;Harald Walder;Bærum Seilforening;Archambault 31;0,970;3;3;
+4;NOR-2861;Divina;Sven Halvorsen;Drøbaksund Seilforening;Diva 35;0,960;4;4;
+5;NOR-11789;Siahgahay;Dag Bjørnsen;Nesodden Seilforening;Sun Fast 36;0,951;5;5;
+6;NOR-15364;Franske Flickan;Kristian Martnes;Hurum Seilforening;Dufour 325;0,882;6;6;
+7;NOR-8438;Spirit II;Jon Ramm-Pettersen;Asker Seilforening;Baltic43;0,950;7;7;
+8;NOR-11285;Tusså;Frank Sandberg;Drøbaksund Seilforening;Sun Fast 35;0,954;8;8;
+9;NOR-14035;Delan;Knut Selliken;Drøbaksund Seilforening;Elan 310;0,933;9;9;
+10;NOR-224;NN;Rudiger Neumann;Drøbaksund Seilforening;BB11;0,678;;DNF (11);
+NOR rating >= 0,975
+Plass;Seilnr;Båt;Skipper;Forening;Båttype;HCP;Poeng;Race 1;
+1;NOR-11172;Wildcard Too;Ole Aabel;Drammens Seilforening;Grand Soleil 42R;1,089;1;1;
+2;NOR-15159;Karma Police;Øystein Misje;Holmestrand Seilforening;Shaw 9;1,169;2;2;
+3;NOR-14635;First Spirit;Trond Ørjan Olsen;Soon Seilforening;First 40.7;1,030;3;3;
+4;NOR-12046;Lex;Erling Høyte;Drøbaksund Seilforening;X-46;1,090;4;4;
+5;NOR-15283;Framtia;Kjetil Tørseth;Hurum Seilforening;XP-44;1,030;5;5;
+6;NOR-11800;Vento;Ole Johan Kvan;Drammens Seilforening;Grand Soleil 37;0,986;6;6;

@@ -70,7 +70,7 @@ public class BigBoat {
 				clubEntry = new ClubEntry(club);
 				clubEntries.put(club, clubEntry);
 			}
-			if (clubEntry.getNumScores() <= CLUB_MAX_SCORES) {
+			if (clubEntry.getNumScores() < CLUB_MAX_SCORES) {
 				clubEntry.setScore(clubEntry.getScore() + seriesEntry.getScore());
 				clubEntry.setNumScores(clubEntry.getNumScores() + 1);
 			}
