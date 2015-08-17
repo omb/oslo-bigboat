@@ -1,6 +1,8 @@
 package no.omb.bigboat.io;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import no.omb.bigboat.BigBoat;
 import no.omb.bigboat.data.ClubEntry;
@@ -19,6 +21,18 @@ public class ConsoleWriter extends AbstractWriter {
 		for (ClubEntry clubEntry : list) {
 			System.out.println("" + place + BigBoat.SEP + clubEntry);
 			++place;
+		}
+	}
+
+	public void logDuplicates() {
+		Set<String> sailNos = new HashSet<>();
+		List<SeriesEntry> list = BigBoat.getSortedSeries();
+		System.out.println("\nDuplikater\n===========================");
+		for (SeriesEntry seriesEntry : list) {
+			if (sailNos.contains(seriesEntry.getBoat().getSailNo())) {				
+				System.out.println(seriesEntry.getBoat());
+			}
+			sailNos.add(seriesEntry.getBoat().getSailNo());
 		}
 	}
 

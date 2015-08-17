@@ -104,6 +104,7 @@ public class BigBoat {
 		ConsoleWriter.getInstance().logRaces();
 		ConsoleWriter.getInstance().logSeries();
 		ConsoleWriter.getInstance().logClubs();
+		ConsoleWriter.getInstance().logDuplicates();
 	}
 
 	private static void writeResults() {
