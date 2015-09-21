@@ -1,0 +1,18 @@
+
+NOR rating <=0,974
+Plass;Seilnr;Båt;Skipper;Forening;Båttype;HCP;Reell;Justert;Poeng;Race 1;
+1;NOR-10203;Jakobine;Yngve Lønmo;Hurum Seilforening;J/92;0,927;4:39:20;4:18:56;1;1;
+2;NOR-9660;Andante;Gunder Valle;Oslo Seilforening;X-332;0,952;4:41:57;4:28:24;2;2;
+3;NOR-7626;Skumpa;Thomas Sund;Hurum Seilforening;Dehler 34, Optima 101;0,881;5:15:20;4:37:48;3;3;
+4;NOR-9107;Vibe II;Bjørn M Clason;Soon Seilforening;Dehler 33;0,941;4:55:16;4:37:50;4;4;
+5;NOR-11285;Tusså;Frank Sandberg;Drøbaksund Seilforening;Sun Fast 35;0,946;5:01:45;4:45:29;5;5;
+6;NOR-13897;Lobo;Arne Bratlie;Hurum Seilforening;Hanse 371;0,968;4:55:44;4:46:16;6;6;
+7;NOR-10990;Hårek;Erik Kverum;Hurum Seilforening;First 31.7;0,918;5:19:29;4:53:17;7;7;
+NOR rating >=0,975
+Plass;Seilnr;Båt;Skipper;Forening;Båttype;HCP;Reell;Justert;Poeng;Race 1;
+1;NOR-15159;Karma Police;Øystein Misje;Holmestrand Seilforening;Shaw 9;1,169;3:39:41;4:16:48;1;1;
+2;NOR-14635;First Spirit;Trond Ørjan Olsen;Soon Seilforening;First 40.7;1,030;4:20:40;4:28:29;2;2;
+3;NOR-11560;Next Christine;Terje Roaas;Hurum Seilforening;X-37;0,990;4:31:19;4:28:36;3;3;
+4;NOR-14445;Flying Scotsman;Colin Campbell;Hurum Seilforening;First 45;1,099;4:20:36;4:46:23;4;4;
+5;NOR-12101;Vini;Thor Magnus Lie;Soon Seilforening;Beneteau First 50;1,077;4:39:15;5:00:45;5;5;
+6;NOR-15283;Framtia;Kjetil Tørseth;Hurum Seilforening;XP-44;1,082;4:38:25;5:01:14;6;6;
