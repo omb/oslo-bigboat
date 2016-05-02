@@ -21,7 +21,7 @@ public class HtmlWriter extends AbstractWriter {
 		try {
 			writer = new PrintWriter(fileName, BigBoat.CHARSET);
 			writeSeriesResultHtmlOpen(writer);
-			writer.println("<h1>Indre Oslofjord Bigboat Series 2015</h1>");
+			writer.println("<h1>Indre Oslofjord Bigboat Series " + BigBoat.YEAR + "</h1>");
 			writer.println("<h2>Resultater sammenlagt " + getRegattaerString() + ", " + getStrykningerString() + "</h2>");
 			writer.println("<table>");
 			writeSeriesResultHtmlRow(writer, true, false, getSeriesResultHeader().split(String.valueOf(BigBoat.SEP)));
