@@ -4,15 +4,17 @@ public class RaceData {
 
 	public static final RaceData[] races = {
 		new RaceData("Isbrytern", DataFileType.SEILMAG_CSV),
-		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV),
-		new RaceData("Bundefjorden Rundt", DataFileType.SAILWAVE_RACE_HTML),
-		new RaceData("Håøya Rundt", DataFileType.SEILMAG_CSV),
-		new RaceData("Hurum Golden Cup", DataFileType.SEILMAG_CSV),
-		new RaceData("Nesodden Høstcup", DataFileType.SAILWAVE_SUMMARY_HTML),
+		new RaceData("Bjørvikasprinten", DataFileType.SEILMAG_CSV),
+//		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV),
+//		new RaceData("Bundefjorden Rundt", DataFileType.SAILWAVE_RACE_HTML),
+//		new RaceData("Håøya Rundt", DataFileType.SEILMAG_CSV),
+//		new RaceData("Hurum Golden Cup", DataFileType.SEILMAG_CSV),
+//		new RaceData("Nesodden Høstcup", DataFileType.SAILWAVE_SUMMARY_HTML),
 	};
 
 	public static final String[] all_races = {
 		"Isbrytern",
+		"Bjørvikasprinten",
 		"Oslofjorden Rundt",
 		"Bundefjorden Rundt",
 		"Håøya Rundt",
