@@ -29,7 +29,7 @@ public class CsvReader implements DataReader {
 		CSVReader reader;
 		try {
 			FileInputStream is = new FileInputStream(fileName);
-			reader = new CSVReader(new InputStreamReader(is, BigBoat.CHARSET), BigBoat.SEP);
+			reader = new CSVReader(new InputStreamReader(is, "UTF-8"), BigBoat.SEP);
 			List<String[]> entries = reader.readAll();
 			reader.close();
 			return entries;
