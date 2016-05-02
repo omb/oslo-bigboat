@@ -11,7 +11,6 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 
 	public static final int SCORE_FACTOR = 10;
 	public static final int DEFAULT_SCORE = 12;
-	public static final int CANCELS = 1;
 
 	private Boat boat;
 	private double score;
@@ -49,7 +48,7 @@ public class SeriesEntry implements Comparable<SeriesEntry>{
 		}
 		Arrays.sort(scores);
 		score = 0;
-		for (ix = 0; ix < RaceData.races.length - SeriesEntry.CANCELS; ++ix) {			
+		for (ix = 0; ix < RaceData.races.length - BigBoat.CANCELS; ++ix) {			
 			score = score + scores[ix];
 		}
 	}

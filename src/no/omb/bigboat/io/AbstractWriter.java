@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import no.omb.bigboat.BigBoat;
 import no.omb.bigboat.data.RaceData;
-import no.omb.bigboat.data.SeriesEntry;
 
 public abstract class AbstractWriter {
 
@@ -34,8 +34,8 @@ public abstract class AbstractWriter {
 
 	@SuppressWarnings("all")
 	protected String getStrykningerString() {
-		final String prefix = SeriesEntry.CANCELS == 0 ? "ingen" : "" + SeriesEntry.CANCELS;
-		final String suffix = SeriesEntry.CANCELS != 1 ? "er" : "";
+		final String prefix = BigBoat.CANCELS == 0 ? "ingen" : "" + BigBoat.CANCELS;
+		final String suffix = BigBoat.CANCELS != 1 ? "er" : "";
 		return prefix + " strykning" + suffix;
 	}
 
