@@ -38,7 +38,7 @@ public class HtmlReader implements DataReader {
 	private List<RaceEntry> readDataFile() {
 		File input = new File(getFileName());
 		try {
-			Document doc = Jsoup.parse(input, BigBoat.CHARSET, "http://example.com/");
+			Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
 			Elements tables = doc.select(isSummary() ? SUMMARY_TABLE : RACE_TABLE);
 			return parseEntries(tables);
 		} catch (IOException e) {
@@ -69,7 +69,16 @@ public class HtmlReader implements DataReader {
 
 	private RaceEntry parseEntry(Elements cols, int classSize) {
 		RaceEntry entry = new RaceEntry();
-		if (isSummary()) {
+		if (isSummary2()) {
+			String place = cols.get(0).text();
+			entry.setPlaceNo(Integer.parseInt(place.substring(0, place.length()-2)));
+			entry.setBoat(new Boat(cols.get(2).text() + "-" + cols.get(3).text(),
+					cols.get(4).text(),
+					cols.get(5).text(),
+					cols.get(6).text(),
+					cols.get(7).text()));
+		}
+		else if (isSummary()) {
 			String place = cols.get(0).text();
 			entry.setPlaceNo(Integer.parseInt(place.substring(0, place.length()-2)));
 			entry.setBoat(new Boat(cols.get(2).text().replace(' ', '-'),
@@ -100,7 +109,11 @@ public class HtmlReader implements DataReader {
 	}
 
 	private boolean isSummary() {
-		return race.getDataFileType() == DataFileType.SAILWAVE_SUMMARY_HTML;
+		return race.getDataFileType() == DataFileType.SAILWAVE_SUMMARY_HTML || race.getDataFileType() == DataFileType.SAILWAVE_SUMMARY2_HTML;
 	}
 
+	private boolean isSummary2() {
+		return race.getDataFileType() == DataFileType.SAILWAVE_SUMMARY2_HTML;
+	}
+	
 }
