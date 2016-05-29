@@ -23,7 +23,7 @@ public class Boat {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((boatName == null) ? 0 : boatName.hashCode());
+				+ ((boatName == null) ? 0 : boatName.toUpperCase().hashCode());
 		result = prime * result + ((sailNo == null) ? 0 : sailNo.hashCode());
 		return result;
 	}
@@ -40,7 +40,7 @@ public class Boat {
 		if (boatName == null) {
 			if (other.boatName != null)
 				return false;
-		} else if (!boatName.equals(other.boatName))
+		} else if (!boatName.equalsIgnoreCase(other.boatName))
 			return false;
 		if (sailNo == null) {
 			if (other.sailNo != null)

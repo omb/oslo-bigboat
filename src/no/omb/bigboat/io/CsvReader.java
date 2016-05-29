@@ -13,14 +13,18 @@ import no.omb.bigboat.data.Boat;
 import no.omb.bigboat.data.RaceData;
 import no.omb.bigboat.data.RaceEntry;
 import no.omb.bigboat.data.SeriesEntry;
+import no.omb.bigboat.data.RaceData.DataFileType;
 import au.com.bytecode.opencsv.CSVReader;
 
 public class CsvReader implements DataReader {
 
 	private static CsvReader instance = new CsvReader();
 
+	private RaceData race;
+
 	@Override
 	public List<RaceEntry> parseDataFile(RaceData race) {
+		this.race = race;
 		List<String[]> entries = readDataFile(getFileName(race));
 		return parseEntries(entries);
 	}
@@ -71,8 +75,14 @@ public class CsvReader implements DataReader {
 	private RaceEntry parseEntry(String[] col, int classSize) {
 		RaceEntry entry = new RaceEntry();
 		try {
-			entry.setPlaceNo(Integer.parseInt(col[0]));
-			entry.setBoat(new Boat(col[1], col[2], col[5], col[3], col[4]));
+			if (race.getDataFileType() == DataFileType.SEILMAG_CSV2) {				
+				entry.setPlaceNo(Integer.parseInt(col[0]));
+				entry.setBoat(new Boat(col[1], col[2], col[5], col[9].split(" \\(")[0], col[9].split(" \\(")[1]));
+			}
+			else {
+				entry.setPlaceNo(Integer.parseInt(col[0]));
+				entry.setBoat(new Boat(col[1], col[2], col[5], col[3], col[4]));
+			}
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Error in line: " + col);
