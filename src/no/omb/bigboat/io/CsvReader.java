@@ -77,7 +77,7 @@ public class CsvReader implements DataReader {
 		try {
 			if (race.getDataFileType() == DataFileType.SEILMAG_CSV2) {
 				entry.setPlaceNo(Integer.parseInt(col[0]));
-				entry.setBoat(new Boat(col[1], col[2], col[5], col[9].split(" \\(")[0], col[9].split(" \\(")[1]));
+				entry.setBoat(new Boat(col[1], col[2], col[3], col[9].split(" \\(")[0], col[9].split(" \\(")[1]));
 			}
 			else if (race.getDataFileType() == DataFileType.ULLERN_CSV) {				
 				entry.setPlaceNo(Integer.parseInt(col[0]));
