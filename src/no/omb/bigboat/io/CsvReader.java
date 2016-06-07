@@ -75,9 +75,13 @@ public class CsvReader implements DataReader {
 	private RaceEntry parseEntry(String[] col, int classSize) {
 		RaceEntry entry = new RaceEntry();
 		try {
-			if (race.getDataFileType() == DataFileType.SEILMAG_CSV2) {				
+			if (race.getDataFileType() == DataFileType.SEILMAG_CSV2) {
 				entry.setPlaceNo(Integer.parseInt(col[0]));
 				entry.setBoat(new Boat(col[1], col[2], col[5], col[9].split(" \\(")[0], col[9].split(" \\(")[1]));
+			}
+			else if (race.getDataFileType() == DataFileType.ULLERN_CSV) {				
+				entry.setPlaceNo(Integer.parseInt(col[0]));
+				entry.setBoat(new Boat(col[3] + "-" + col[4], col[6], col[5], col[1], col[2]));
 			}
 			else {
 				entry.setPlaceNo(Integer.parseInt(col[0]));
