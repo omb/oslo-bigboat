@@ -26,7 +26,7 @@ public class BigBoat {
 	public static final String CHARSET = "ISO-8859-1";
 	public static final char SEP = ';';
 	public static final int CLUB_MAX_SCORES = 5;
-	public static final int CANCELS = 0;
+	public static final int CANCELS = 2;
 
 	private static Map<RaceData, List<RaceEntry>> raceResults = new HashMap<>();
 	private static Map<Boat, SeriesEntry> seriesEntries = new HashMap<>();

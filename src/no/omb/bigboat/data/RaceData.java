@@ -9,9 +9,9 @@ public class RaceData {
 		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV2),
 		new RaceData("UllernCupen Familie SH regatta 1", DataFileType.ULLERN_CSV),
 		new RaceData("UllernCupen Familie SH regatta 2", DataFileType.ULLERN_CSV),
+		new RaceData("Nesodden Høstcup", DataFileType.SEILMAG_CSV2),
 //		new RaceData("Håøya Rundt", DataFileType.SEILMAG_CSV),
 //		new RaceData("Hurum Golden Cup", DataFileType.SEILMAG_CSV),
-//		new RaceData("Nesodden Høstcup", DataFileType.SAILWAVE_SUMMARY_HTML),
 	};
 
 	public enum DataFileType {
