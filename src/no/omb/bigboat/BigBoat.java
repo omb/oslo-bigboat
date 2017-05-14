@@ -125,6 +125,7 @@ public class BigBoat {
 			return HtmlReader.getInstance();
 		case SEILMAG_CSV:
 		case SEILMAG_CSV2:
+		case SEILMAG_CSV3:
 		case ULLERN_CSV:
 			return CsvReader.getInstance();
 		}

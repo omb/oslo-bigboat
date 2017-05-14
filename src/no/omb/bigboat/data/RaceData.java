@@ -5,7 +5,7 @@ public class RaceData {
 	public static final RaceData[] races = {
 		new RaceData("Isbrytern", DataFileType.SEILMAG_CSV),
 		new RaceData("Bjørvikasprinten", DataFileType.SEILMAG_CSV),
-//		new RaceData("Bundefjorden Rundt", DataFileType.SAILWAVE_SUMMARY2_HTML),
+		new RaceData("Bundefjorden Rundt", DataFileType.SEILMAG_CSV3),
 //		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV2),
 //		new RaceData("UllernCupen Familie SH regatta 1", DataFileType.ULLERN_CSV),
 //		new RaceData("UllernCupen Familie SH regatta 2", DataFileType.ULLERN_CSV),
@@ -17,6 +17,7 @@ public class RaceData {
 	public enum DataFileType {
 		SEILMAG_CSV,
 		SEILMAG_CSV2,
+		SEILMAG_CSV3,
 		ULLERN_CSV,
 		SAILWAVE_RACE_HTML,
 		SAILWAVE_SUMMARY_HTML,
