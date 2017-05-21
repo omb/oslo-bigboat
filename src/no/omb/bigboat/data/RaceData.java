@@ -6,7 +6,7 @@ public class RaceData {
 		new RaceData("Isbrytern", DataFileType.SEILMAG_CSV),
 		new RaceData("Bjørvikasprinten", DataFileType.SEILMAG_CSV),
 		new RaceData("Bundefjorden Rundt", DataFileType.SEILMAG_CSV3),
-//		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV2),
+		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV3),
 //		new RaceData("UllernCupen Familie SH regatta 1", DataFileType.ULLERN_CSV),
 //		new RaceData("UllernCupen Familie SH regatta 2", DataFileType.ULLERN_CSV),
 //		new RaceData("Nesodden Høstcup", DataFileType.SEILMAG_CSV2),
