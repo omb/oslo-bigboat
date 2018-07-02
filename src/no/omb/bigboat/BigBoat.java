@@ -20,13 +20,13 @@ import no.omb.bigboat.io.HtmlWriter;
 
 public class BigBoat {
 	
-	public static final String YEAR = "2017";
+	public static final String YEAR = "2018";
 	public static final String DATA = "data-" + YEAR;
 	public static final String RESULTS = "results-" + YEAR;
 	public static final String CHARSET = "ISO-8859-1";
 	public static final char SEP = ';';
 	public static final int CLUB_MAX_SCORES = 5;
-	public static final int CANCELS = 2;
+	public static final int CANCELS = 0;
 
 	private static Map<RaceData, List<RaceEntry>> raceResults = new HashMap<>();
 	private static Map<Boat, SeriesEntry> seriesEntries = new HashMap<>();
@@ -127,6 +127,7 @@ public class BigBoat {
 		case SEILMAG_CSV2:
 		case SEILMAG_CSV3:
 		case ULLERN_CSV:
+		case M2S_CSV:
 			return CsvReader.getInstance();
 		}
 		return null;

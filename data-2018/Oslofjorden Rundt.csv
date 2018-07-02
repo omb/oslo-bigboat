@@ -1,0 +1,66 @@
+
+Doublehanded begge dager <= 0,983
+Plass;Seilnr;Båt;Båttype;Poeng;Race 1;Race 2;
+1;NOR-12485;LEDA 3;First 34.7;2;1;1;;Atle Hannisdal (Trondhjems Seilforening
+2;NOR-28;HYAK;SunFast 3200;7;3;4;;Pål Kragerud (Kongelig Norsk Seilforening
+3;NOR-11110;LUPONA;Kron;9;6;3;;wolfgang eichstetter (Asker Seilforening
+4;NOR-493;MANI TO;Albin Express;10;8;2;;Dag Tønder (Kongelig Norsk Seilforening
+5;NOR-12392;RAGNHILD;First 31.7;11;4;7;;Edvard Aspelund (Bundefjorden Seilforening
+6;NOR-13724;VINDTORA;Pogo 8,50;12;7;5;;Christian Stensholt (Frognerkilen Seilforening Av 1860
+7;NOR-10701;OUT OF OFFICE;First 36.7;16;2;DNC (14);;Geir Kristensen (Asker Seilforening
+8;NOR-14648;VELA;First 31.7;17;5;12;;snorre strandrud (Asker Seilforening
+9;NOR-9401;FRYD;Maxi909;17;11;6;;Ingrid Fladmark (Ålesunds Seilforening
+10;NOR-12296;FRI FLYT;Hanse 370;18;9;9;;Petter Hegle (Holmestrand Seilforening
+11;NOR-13533;CRUELLA;Sun Fast 3200;20;10;10;;Eira Naustvik (Asker Seilforening
+12;NOR-608;(IT´S A) FAIRYTALE 2;J/80;22;DNC (14);8;;Jan Sverre Reboli Paulsen (Bundefjorden Seilforening
+13;NOR-14971;SEAYOU 2;Seascape 27;23;12;11;;Harald Masst (Bærum Seilforening
+Doublehanded begge dager >= 0,984
+Plass;Seilnr;Båt;Båttype;Poeng;Race 1;Race 2;
+1;NOR-15036;KRAFTKAR;Elan 400S;4;2;2;;Sigmund Andre Hertzberg (Bærum Seilforening
+2;NOR-10388;JAMBO;J/109;6;1;5;;Torgeir Sten Askvig (Asker Seilforening
+3;NOR-11464;ELDORADO;X-37;7;6;1;;Alf Magne Andersen (Nesodden Seilforening
+4;NOR-15461;FLYING SCOTSMAN;Sun Fast 3600;8;4;4;;Colin Campbell (Hurum Seilforening
+5;NOR-12466;MIA MARA;Elan 37;9;3;6;;Jon Moholth (Tønsberg Seilforening
+6;NOR-11956;MORILD;Elan 37;16;8;8;;Olav Mork Bjørnås (Nesodden Seilforening
+7;NOR-14415;GREEN MAGIC;Elan 350;17;5;12;;Tore Glen Berg (Asker Seilforening
+8;NOR-10133;XBOX;IMX 40;17;7;10;;Fredrik Holm (Kongelig Norsk Seilforening
+9;NOR-15670;MIKA;jpk;18;OCS (15);3;;HARALD WALDER (Bærum Seilforening
+10;NOR-12645;TROLLFJORD;Swedestar 370;18;9;9;;Svein Arild Hildrum (Asker Seilforening
+11;NOR-15256;GOODTIMES;Hanse 370;21;10;11;;Christian Hansson (Bærum Seilforening
+12;NOR-7006;LURINGEN;Finngulf 39;22;DNS (15);7;;Tommy Bergmann (Asker Seilforening
+13;NOR-11220;SAEVITIA;Bavaria 35 match;28;DNS (15);13;;Morten Sollerud (Asker Seilforening
+14;NOR-15413;RUBIN 4;Dehler38;29;DNC (15);14;;harald helverschou (Kongelig Norsk Seilforening
+Doublehanded fredag
+Plass;Seilnr;Båt;Båttype;Reell;Justert;Poeng;Race 1;
+1;NOR-160;POINT 2 POINT;11 Meter;3:19:28;3:20:27;1;1;Anders Larsson (Asker Seilforening
+2;NOR-15283;FRAMTIA;XP-44;3:03:34;3:20:27;1;1;Kjetil Tørseth (Hurum Seilforening
+3;NOR-10240;FRITT FRAM;First 40.7;3:20:01;3:26:25;3;3;Audun Gjøstein (Asker Seilforening
+4;NOR-190;SALACIA;Albin Express;4:35:49;3:51:24;4;4;Kristian Østlie (Bundefjorden Seilforening
+5;NOR-13638;ENESTE SøSTER;Hanse 350;4:33:57;4:23:15;5;5;Finn Kr. Aamodt (Ullern Seilforening
+6;NOR-13335;HYGGEN;Hanse 430e;4:18:55;4:34:27;6;6;Ole Gunnar Tveiten (Asker Seilforening
+7;NOR-12510;BREEZIN;x 40;;DNC (8);;;Morten Gaarud (Kongelig Norsk Seilforening
+NOR Rating lørdag
+Plass;Seilnr;Båt;Båttype;Reell;Justert;Poeng;Race 1;
+1;NOR-160;POINT 2 POINT;11 metre;2:37:12;2:41:45;1;1;Anders Larsson (Asker Seilforening
+2;NOR-306;MELGES 24/7 SAILING TEAM;Melges 24;3:03:46;3:02:06;2;2;Steinar Waler (Røyken Seilforening
+3;NOR-9299;OLISABETH;Luffe 40MH;3:02:43;3:10:45;3;3;Svein Are Løtveit (Asker Seilforening
+4;NOR-11172;TANGO II;Grand Soleil 42R;2:55:56;3:13:31;4;4;Andreas Buøen (Nesodden Seilforening
+5;NOR-14570;MARIALENE;Elan 350;3:08:47;3:14:49;5;5;Steinar Jørgensen (Drøbaksund Seilforening
+6;NOR-10107;JOY IV;First 31.7;3:28:23;3:14:50;6;6;TROND GUNDERSEN (Asker Seilforening
+7;NOR-9155;HAVHESTEN;First 41S5;3:21:57;3:17:54;7;7;Magnus Lingjærde (Bærum Seilforening
+8;NOR-9660;ANDANTE;X-332;3:32:48;3:22:47;8;8;Terje Hall Torgersen (Bundefjorden Seilforening
+9;NOR-14109;LITTLE WING;T-34;3:22:35;3:23:23;9;9;Kristian Heder (Asker Seilforening
+10;NOR-0001;URBAN JUNGLE;First 35;3:27:46;3:24:17;10;10;Espen Toegersen (Kongelig Norsk Seilforening
+11;NOR-11001;EASY MATCH;Bavaria 38 Match;3:22:21;3:24:58;11;11;Albert Roll (Asker Seilforening
+12;NOR-NOR 694;X'EN;Express;4:06:54;3:30:06;12;12;Peder Stiansen (Asker Seilforening
+13;NOR-190;SALACIA;Express;4:07:03;3:30:14;13;13;Kristan Østlie (Bundefjorden Seilforening
+14;NOR-10947;EASYGOING;X-46;3:16:23;3:36:24;14;14;Mikkel Vislie (Bærum Seilforening
+15;NOR-10240;FRITT FRAM;First 40.7;3:29:29;3:37:39;15;15;Audun Gjøstein (Asker Seilforening
+16;NOR-7051;FRIDA;Scanmar 345;4:06:58;3:41:46;16;16;Arne Husevåg (Asker Seilforening
+17;NOR-13335;HYGGEN;Hanse 430 E;3:38:41;3:53:46;17;17;Ole Gunnar Tveten (Asker Seilforening
+18;NOR-10044;WENDIGO 2;Dehleer 36 JV;3:59:45;3:58:18;18;18;Gunnar Gundersen (Kongelig Norsk Seilforening
+19;NOR-6168;MAXI MARTA;Maxi 999;4:51:38;4:24:30;19;19;Knut Kalland (Røyken Seilforening
+Tur & Hav - TUR klasse uten spinnaker lørdag
+Plass;Seilnr;Båt;Poeng;Race 1;
+1;NOR-12312;FADERNES BESLUTNING;makTEN;1;1;;;jan nic. langfeldt (Asker Seilforening
+2;NOR-4347;EOS;Ukjent;;DNC (3);;;Stefan Geiger (Seilforening Schnelle Morgenröhre
