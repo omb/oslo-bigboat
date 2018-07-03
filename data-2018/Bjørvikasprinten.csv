@@ -1,26 +1,26 @@
 Albin Express;;;;;;;;;
-1;NOR 2000;Puls;Albin Express;Sven AUGLAND;Bærum Seilforening;1;1;1;
-2;NOR 2007;Glory;Albin Express;Dag ANDERSEN;Oslo Seilforening;2;2;2;
-3;NOR 997;Fram XVII;Albin Express;H M K HARALD V OF NORWAY;Kongelig Norsk Seilforening;3;3;3;
-4;NOR 349;Tilbake;Albin Express;Jan Fredrik KNUDSEN;Oslo Seilforening;4;4;4;
-5;NOR 501;Black Jack;Albin Express;Thomas ELVIK;Kongelig Norsk Seilforening;5;5;5;
-6;NOR 952;Regattamaskinen Asbjørn;Albin Express;Ane Berg TOMTER;Oslo Seilforening;6;6;6;
-7;NOR 59;Hippi;Albin Express;Eirik Gulsrud JOHNSEN;Kongelig Norsk Seilforening;7;7;7;
-8;NOR 988;JaJa;Albin Express;Randi WØIEN;Oslo Seilforening;8;8;8;
-9;NOR 253;Exena;Albin Express;Gerhard LORANGE;Kongelig Norsk Seilforening;9;9;9;
-10;NOR 190;Salacia;Albin Express;Marius BAKKE;Bærum Seilforening;10;10;10;
-11;NOR 212;Sfinx;Albin Express;Kjetil MO;Kongelig Norsk Seilforening;11;11;11;
-12;NOR 819;Crazy Anna;Albin Express;Richard KARLSEN;Kongelig Norsk Seilforening;12;12;12;
+1;NOR-2000;Puls;Albin Express;Sven AUGLAND;Bærum Seilforening;1;1;1;
+2;NOR-2007;Glory;Albin Express;Dag ANDERSEN;Oslo Seilforening;2;2;2;
+3;NOR-997;Fram XVII;Albin Express;H M K HARALD V OF NORWAY;Kongelig Norsk Seilforening;3;3;3;
+4;NOR-349;Tilbake;Albin Express;Jan Fredrik KNUDSEN;Oslo Seilforening;4;4;4;
+5;NOR-501;Black Jack;Albin Express;Thomas ELVIK;Kongelig Norsk Seilforening;5;5;5;
+6;NOR-952;Regattamaskinen Asbjørn;Albin Express;Ane Berg TOMTER;Oslo Seilforening;6;6;6;
+7;NOR-59;Hippi;Albin Express;Eirik Gulsrud JOHNSEN;Kongelig Norsk Seilforening;7;7;7;
+8;NOR-988;JaJa;Albin Express;Randi WØIEN;Oslo Seilforening;8;8;8;
+9;NOR-253;Exena;Albin Express;Gerhard LORANGE;Kongelig Norsk Seilforening;9;9;9;
+10;NOR-190;Salacia;Albin Express;Marius BAKKE;Bærum Seilforening;10;10;10;
+11;NOR-212;Sfinx;Albin Express;Kjetil MO;Kongelig Norsk Seilforening;11;11;11;
+12;NOR-819;Crazy Anna;Albin Express;Richard KARLSEN;Kongelig Norsk Seilforening;12;12;12;
 ;;;;;;;;;
-NOR Rating - under 0.980;;;;;;;;;
-1;NOR 145;Kismet;Knarr;Erik BERG;Oslo Seilforening;0.7784;3:03:13 2:22:37 1;1;1
-2;NOR 9660;Andante;X-332;Terje Hall TORGERSEN;Bundefjorden Seilforening;0.9625;2:36:53 2:31:00 2;2;2
-3;NOR 14064;Black Magic;First 35;Espen THØGERSEN;Kongelig Norsk Seilforening;0.9892;2:36:532:35:11 3;3;3
-4;NOR 101;Excalibur;X-79 OD;Christian COOK;Kongelig Norsk Seilforening;902;2:55:32 2:38:20 4;4;4
-5;NOR 5775;Brunhildur;X-79;Sindre BAKKE;Ukjent;0.89;3:04:00 2:43:46 5;5;5
-6;NOR 9775;Bilbo;FIRST 31.7 LR;Jonas SMITT-AMUNDSEN;Kongelig Norsk Seilforening;0.9445;2:53:41 2:44:03 6;6;6
+NOR-Rating - under 0.980;;;;;;;;;
+1;NOR-145;Kismet;Knarr;Erik BERG;Oslo Seilforening;0.7784;3:03:13 2:22:37 1;1;1
+2;NOR-9660;Andante;X-332;Terje Hall TORGERSEN;Bundefjorden Seilforening;0.9625;2:36:53 2:31:00 2;2;2
+3;NOR-14064;Black Magic;First 35;Espen THØGERSEN;Kongelig Norsk Seilforening;0.9892;2:36:532:35:11 3;3;3
+4;NOR-101;Excalibur;X-79 OD;Christian COOK;Kongelig Norsk Seilforening;902;2:55:32 2:38:20 4;4;4
+5;NOR-5975;Brunhildur;X-79;Sindre BAKKE;Ukjent;0.89;3:04:00 2:43:46 5;5;5
+6;NOR-9775;Bilbo;FIRST 31.7 LR;Jonas SMITT-AMUNDSEN;Kongelig Norsk Seilforening;0.9445;2:53:41 2:44:03 6;6;6
 ;;;;;;;;;
-NOR Rating - over 0.980;;;;;;;;;
-1;NOR 26;PAKALOLO II;FARR 30;Siri SØMME;Kongelig Norsk Seilforening;1.0602;2:11:44 2:19:40 1;1;1
-2;NOR 14887;Jubel;J/109;Jon HOLM;Oslo Seilforening;1.0048;2:29:52 2:30:35 2;2;2
-3;NOR 20;Babar;X-35 OD;Arild ANDRESEN;Frognerkilen Seilforening Av 1860;1.0302;2:27:30 2:31:57 3;3;3
+NOR-Rating - over 0.980;;;;;;;;;
+1;NOR-26;PAKALOLO II;FARR 30;Siri SØMME;Kongelig Norsk Seilforening;1.0602;2:11:44 2:19:40 1;1;1
+2;NOR-14887;Jubel;J/109;Jon HOLM;Oslo Seilforening;1.0048;2:29:52 2:30:35 2;2;2
+3;NOR-20;Babar;X-35 OD;Arild ANDRESEN;Frognerkilen Seilforening Av 1860;1.0302;2:27:30 2:31:57 3;3;3
