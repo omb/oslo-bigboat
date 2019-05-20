@@ -1,29 +1,29 @@
 Rank;SailNo;Boat;HelmName;;Club;Nett
 ;;;;;;
 NOR Rating - Bane;;;;;;
-1;NOR-21;BARCAROLE opus IV;BJØRN VADHOLM;;Kongelig Norsk Seilforening;4
+1;NOR-21;BARCAROLE opus IV;BJÃ˜RN VADHOLM;;Kongelig Norsk Seilforening;4
 2;NOR-804;Kuling;Morten Ebbell Hestnes;;Bundefjorden Seilforening;8
 3;NOR-19;Bilbo;Andreas Wettre;;Bundefjorden Seilforening;9
-4;NOR-463;Xess;Jon Håvard Loge;;Bærum Seilforening;10
+4;NOR-463;Xess;Jon HÃ¥vard Loge;;BÃ¦rum Seilforening;10
 5;NOR-9660;Andante;Terje Hall Torgersen;;Bundefjorden Seilforening;10
 6;NOR-14901;Sailfish;Christopher Robin Alveberg;;Bundefjorden Seilforening;18
 7;NOR-10701;Zikk Zakk 7;Per K. Lie;;Bundefjorden Seilforening;19
-8;NOR-13990;Wasabi;HENNING FØSKER;;Nesodden Seilforening;20
+8;NOR-13990;Wasabi;HENNING FÃ˜SKER;;Nesodden Seilforening;20
 9;NOR-2;Carron;Morten Tenvig;;Oslo Seilforening;26
 10;NOR-9007;Farroson;Kim Lie;;Nesodden Seilforening;29
 ;;;;;;
 NOR Rating - Distanse;;;;;;
 1;NOR-15005;Kismet jr;Erik Berg;;Oslo Seilforening;19
-2;NOR-11197;Mulen;Finn Gustav Skofteland;;Bærum Seilforening;36
-3;NOR-11789;Siahgahay;DAG BJØRNSEN;;Nesodden Seilforening;20
+2;NOR-11197;Mulen;Finn Gustav Skofteland;;BÃ¦rum Seilforening;36
+3;NOR-11789;Siahgahay;DAG BJÃ˜RNSEN;;Nesodden Seilforening;20
 4;NOR-14109;Naomi;Kristian Heder;;Asker Seilforening;21
-5;NOR-10779;Hermine II;Erik Poppe;;Bærum Seilforening;22
-6;NOR-9555;Snehvit;Arild Berg;;Bærum Seilforening;23
-7;NOR-10240;Fritt Fram!;Audun Gjøstein;;Asker Seilforening;24
+5;NOR-10779;Hermine II;Erik Poppe;;BÃ¦rum Seilforening;22
+6;NOR-9555;Snehvit;Arild Berg;;BÃ¦rum Seilforening;23
+7;NOR-10240;Fritt Fram!;Audun GjÃ¸stein;;Asker Seilforening;24
 8;NOR-14628;Vindfang;Tormod S. Petersen;;Nesodden Seilforening;25
 9;NOR-14660;Tango;Iversen Iver;;Nesodden Seilforening;26
 10;NOR-14788;Storefri;Lars Krogh;;Bundefjorden Seilforening;27
-11;NOR-15628;WilDa;Kristian Jerpetjøn;;Nesodden Seilforening;28
+11;NOR-15628;WilDa;Kristian JerpetjÃ¸n;;Nesodden Seilforening;28
 12;NOR-10107;JOY IV;TROND GUNDERSEN;;Asker Seilforening;36
 12;NOR-2027;Albinchen;Erlend Rehn;;Oslo Seilforening;36
 12;NOR-10760;Naomi;Ole Gunnar Tveiten;;Asker Seilforening;36
@@ -36,16 +36,16 @@ Shorthanded;;;;;;
 2;NOR-13639;Godevenner;Elling Rishoff;;Asker Seilforening;20
 3;NOR-6807;Aphromann;Daniel Ingebretsen;;Hurum Seilforening;21
 4;NOR-10388;Jambo;Torgeir Sten Askvik;;Asker Seilforening;22
-5;NOR-9282;Xred Dingo;Øyvind Degnes;;Nesodden Seilforening;23
+5;NOR-9282;Xred Dingo;Ã˜yvind Degnes;;Nesodden Seilforening;23
 6;NOR-13550;TimeOut;Michael Kristiansen;;Nesodden Seilforening;24
-7;NOR-12466;Mia Mara;Jon Moholth;;Tønsberg Seilforening;25
-8;NOR-14551;Luna;Trond Mårvik;;Drøbaksund Seilforening;26
-9;NOR-10140;Xifia;RikkeViksjø;;Bærum Seilforening;27
+7;NOR-12466;Mia Mara;Jon Moholth;;TÃ¸nsberg Seilforening;25
+8;NOR-14551;Luna;Trond MÃ¥rvik;;DrÃ¸baksund Seilforening;26
+9;NOR-10140;Xifia;RikkeViksjÃ¸;;BÃ¦rum Seilforening;27
 10;NOR-4254;supernova;Eira Naustvik;;Asker Seilforening;36
 10;NOR-11161;Eureka;Niclas Fure;;Kongelig Norsk Seilforening;36
-10;NOR-13882;333 Half Evil;Bjørn Willliam Lindgren;;Kongelig Norsk Seilforening;36
+10;NOR-13882;333 Half Evil;BjÃ¸rn Willliam Lindgren;;Kongelig Norsk Seilforening;36
 10;NOR-8180;Emiliane;Carl Fredrik Kresse;;Asker Seilforening;36
-10;NOR-13975;Sparkling girl;harald walder;;Bærum Seilforening;36
-10;NOR-10083;Leken;Bjarne Birkeland;;Bærum Seilforening;36
+10;NOR-13975;Sparkling girl;harald walder;;BÃ¦rum Seilforening;36
+10;NOR-10083;Leken;Bjarne Birkeland;;BÃ¦rum Seilforening;36
 10;NOR-11328;IL TEMPORALE;Stein Thorstensen;;Kongelig Norsk Seilforening;36
-10;NOR-28;HYAK;Pål Kragerud;;Kongelig Norsk Seilforening;36
+10;NOR-28;HYAK;PÃ¥l Kragerud;;Kongelig Norsk Seilforening;36
