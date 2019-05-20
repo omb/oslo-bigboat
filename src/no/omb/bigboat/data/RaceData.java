@@ -4,13 +4,12 @@ public class RaceData {
 
 	public static final RaceData[] races = {
 		new RaceData("Bjørvikasprinten", DataFileType.M2S_CSV),
-		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV3),
-		new RaceData("Bundefjorden Rundt", DataFileType.M2S_CSV),
-		new RaceData("Håøya Rundt", DataFileType.SEILMAG_CSV3),
-		new RaceData("SætreKruset", DataFileType.SEILMAG_CSV3),
-		new RaceData("Nesodden Høstcup", DataFileType.SEILMAG_CSV2),
-
-//		new RaceData("Isbrytern", DataFileType.SEILMAG_CSV),
+		new RaceData("Isbrytern", DataFileType.M2S_CSV),
+		new RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV),
+//		new RaceData("Oslofjorden Rundt", DataFileType.SEILMAG_CSV3),
+//		new RaceData("Håøya Rundt", DataFileType.SEILMAG_CSV3),
+//		new RaceData("SætreKruset", DataFileType.SEILMAG_CSV3),
+//		new RaceData("Nesodden Høstcup", DataFileType.SEILMAG_CSV2),
 //		new RaceData("UllernCupen Familie SH regatta 1", DataFileType.ULLERN_CSV),
 //		new RaceData("UllernCupen Familie SH regatta 2", DataFileType.ULLERN_CSV),
 //		new RaceData("Hurum Golden Cup", DataFileType.SEILMAG_CSV),

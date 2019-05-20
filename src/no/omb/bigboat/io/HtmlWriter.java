@@ -68,7 +68,7 @@ public class HtmlWriter extends AbstractWriter {
 		writer.println("<html lang=\"no\">");
 		writer.println("  <head>");
 		writer.println("    <meta charset=\"" + BigBoat.CHARSET + "\">");
-		writer.println("    <title>Indre Oslofjord Bigboat Series 2015</title>");
+		writer.println("    <title>Indre Oslofjord Bigboat Series " + BigBoat.YEAR + "</title>");
 		writer.println("    <link rel=\"stylesheet\" media=\"screen\" href=\"style.css\">");
 		writer.println("    <style>");
 		writer.println("      h1, h2, table {");
