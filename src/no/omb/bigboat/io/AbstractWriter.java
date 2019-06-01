@@ -10,7 +10,7 @@ import no.omb.bigboat.data.RaceData;
 public abstract class AbstractWriter {
 
 	protected String getSeriesResultHeader() {
-		StringBuilder sb = new StringBuilder("Plass;Seilnr;Båt;Skipper;Båttype;Seilforening");
+		StringBuilder sb = new StringBuilder("Plass;Seilnr;BÃ¥t;Skipper;BÃ¥ttype;Seilforening");
 		for (RaceData race : RaceData.races) {
 			sb.append(";Poeng ");
 			sb.append(race.getDataFileName());
@@ -20,7 +20,7 @@ public abstract class AbstractWriter {
 	}
 
 	protected String getRaceResultHeader() {
-		return "Plass;Seilnr;Båt;Skipper;Båttype;Forening;Plass i klasse;Poeng";
+		return "Plass;Seilnr;BÃ¥t;Skipper;BÃ¥ttype;Forening;Plass i klasse;Poeng";
 	}
 
 	protected String getClubsResultHeader() {
