@@ -128,6 +128,7 @@ public class BigBoat {
 		case SEILMAG_CSV3:
 		case ULLERN_CSV:
 		case M2S_CSV:
+		case M2S_CSV2:
 			return CsvReader.getInstance();
 		}
 		return null;
