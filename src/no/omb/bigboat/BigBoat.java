@@ -26,7 +26,7 @@ public class BigBoat {
 	public static final String CHARSET = "UTF-8";
 	public static final char SEP = ';';
 	public static final int CLUB_MAX_SCORES = 5;
-	public static final int CANCELS = 1;
+	public static final int CANCELS = 2;
 
 	private static Map<RaceData, List<RaceEntry>> raceResults = new HashMap<>();
 	private static Map<Boat, SeriesEntry> seriesEntries = new HashMap<>();
@@ -126,6 +126,7 @@ public class BigBoat {
 		case SEILMAG_CSV:
 		case SEILMAG_CSV2:
 		case SEILMAG_CSV3:
+		case SEILMAG_CSV4:
 		case ULLERN_CSV:
 		case M2S_CSV:
 		case M2S_CSV2:
