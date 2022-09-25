@@ -10,7 +10,7 @@ public class RaceData {
 //		new RaceData("Øyseilasen", DataFileType.M2S_CSV2),
 		new RaceData("Håøya Rundt", DataFileType.M2S_CSV2),
 		new RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),
-//		new RaceData("Nesodden Høstcup", DataFileType.SEILMAG_CSV2),
+		new RaceData("Nesodden Høstcup", DataFileType.M2S_CSV3),
 //		new RaceData("UllernCupen Familie SH regatta 1", DataFileType.ULLERN_CSV),
 //		new RaceData("UllernCupen Familie SH regatta 2", DataFileType.ULLERN_CSV),
 //		new RaceData("Hurum Golden Cup", DataFileType.SEILMAG_CSV),
@@ -24,6 +24,7 @@ public class RaceData {
 		ULLERN_CSV,
 		M2S_CSV,
 		M2S_CSV2,
+		M2S_CSV3,
 		SAILWAVE_RACE_HTML,
 		SAILWAVE_SUMMARY_HTML,
 		SAILWAVE_SUMMARY2_HTML
