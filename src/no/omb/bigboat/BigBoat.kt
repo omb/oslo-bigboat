@@ -3,16 +3,18 @@ package no.omb.bigboat
 import no.omb.bigboat.data.*
 import no.omb.bigboat.data.RaceData.DataFileType
 import no.omb.bigboat.io.*
+import java.io.File
 import java.util.*
 
+
 object BigBoat {
-    const val YEAR = "2022"
+    const val YEAR = "2023"
     const val DATA = "data-$YEAR"
     const val RESULTS = "results-$YEAR"
     const val CHARSET = "UTF-8"
     const val SEP = ';'
     const val CLUB_MAX_SCORES = 5
-    const val CANCELS = 3
+    const val CANCELS = 0
     private val raceResults: MutableMap<RaceData, List<RaceEntry>> = HashMap()
     private val seriesEntries: MutableMap<Boat, SeriesEntry> = HashMap()
     private val clubEntries: MutableMap<String, ClubEntry> = HashMap()
@@ -94,6 +96,7 @@ object BigBoat {
     }
 
     private fun writeResults() {
+        File(RESULTS).mkdir()
         for (race in RaceData.races) {
             CsvWriter.instance.writeRaceResultFile(race)
         }
