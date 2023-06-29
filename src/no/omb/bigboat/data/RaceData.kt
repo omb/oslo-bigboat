@@ -24,7 +24,7 @@ data class RaceData(
                 RaceData("Isbrytern", DataFileType.M2S_CSV),
                 RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
                 RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
-                //RaceData("Færderseilasen", DataFileType.M2S_CSV3),
+                RaceData("Færderseilasen", DataFileType.M2S_CSV3),
                 //RaceData("Øyseilasen", DataFileType.M2S_CSV2),
                 //RaceData("Håøya Rundt", DataFileType.M2S_CSV2),
                 //RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),

@@ -1,26 +1,289 @@
 Doublehanded (Mefjord)
-1;NOR-15670;Harald WALDER;BÆRU;JPK 10.80;
-2;NOR-15036;Nikolai HALLE;ASKR;Elan 400;
-3;NOR-88;Yngve AMUNDSEN;ULLE;X-35 OD;
-4;NOR-10129;Bjørn Erik SØDAL;CSSF;X-332;
-5;NOR-10083;Stian HENRIKSEN;ASKR;J/92;
-6;NOR-13948;Eirik TENNINGEN;ASKR;MD 35;
-7;NOR-10576;Petter HEGLE;HOLM;FARR 395;
-8;NOR-13533;Eira NAUSTVIK;KNS;Sun fast 3200;
-9;NOR-10701;Geir KRISTENSEN;ASKR;FIRST 36.7;
-9;NOR-16253;Karl Wilhelm WELDINGH;LAVI;Beneteau First 18S;
+1;NOR-15670;Harald WALDER;BÆRU;JPK 10.80;Mika
+2;NOR-15036;Nikolai HALLE;ASKR;Elan 400;Careen
+3;NOR-88;Yngve AMUNDSEN;ULLE;X-35 OD;Akhillevs-X
+4;NOR-10129;Bjørn Erik SØDAL;CSSF;X-332;Tjangs
+5;NOR-10083;Stian HENRIKSEN;ASKR;J/92;Jerry
+6;NOR-13948;Eirik TENNINGEN;ASKR;MD 35;Orca
+7;NOR-10576;Petter HEGLE;HOLM;FARR 395;FARRout
+8;NOR-13533;Eira NAUSTVIK;KNS;Sun fast 3200;Cruella deVil
+9;NOR-10701;Geir KRISTENSEN;ASKR;FIRST 36.7;Out Of Office
+9;NOR-16253;Karl Wilhelm WELDINGH;LAVI;Beneteau First 18S;Crumbles x Pool Panther
 
 Doublehanded (Hollænder)
-1;NOR-10203;Yngve LØNMO;HURU;J/92;
-2;NOR-15924;Christer LIE;BÆRU;Arcona 430;
-3;NOR-12392;Edvard ASPELUND;BUND;First 31.7 LR;
-4;NOR-11817;Charlotta JONSSON;ASKR;First 31.7;
-5;NOR-5;Steffen SKJØNBERG;BÆRU;Sun Fast 3200;
-6;NOR-13541;Ulrik SANDVIG;BÆRU;First 31.7;
-7;NOR-13724;Christian STENSHOLT;FROG;Pogo 850;
-8;NOR-12057;Morten WESTBERG;KNS;Grand Soleil 37 B&;
-9;NOR-5952;Oddvar EIDE;HURU;SCANMAR 33;
-10;NOR-11348;Rune Myhre FARTUM;HURU;First 31.7;
-11;NOR-14516;Peter SAHLSTROM;KNS;J/120;
-12;NOR-11464;Pål KRAGERUD;KNS;X-37;
-12;NOR-15407;Truls SCHØYEN;SOON;Sun Od 349;
+1;NOR-10203;Yngve LØNMO;HURU;J/92;Jakobine
+2;NOR-15924;Christer LIE;BÆRU;Arcona 430;Feelgood
+3;NOR-12392;Edvard ASPELUND;BUND;First 31.7 LR;Ragnhild
+4;NOR-11817;Charlotta JONSSON;ASKR;First 31.7;Yess
+5;NOR-5;Steffen SKJØNBERG;BÆRU;Sun Fast 3200;Sophie Elise
+6;NOR-13541;Ulrik SANDVIG;BÆRU;First 31.7;Saga
+7;NOR-13724;Christian STENSHOLT;FROG;Pogo 850;Vindtora
+8;NOR-12057;Morten WESTBERG;KNS;Grand Soleil 37 B&;Time Bandit
+9;NOR-5952;Oddvar EIDE;HURU;SCANMAR 33;Exciter
+10;NOR-11348;Rune Myhre FARTUM;HURU;First 31.7;ChriMar
+11;NOR-14516;Peter SAHLSTROM;KNS;J/120;the Joker
+12;NOR-11464;Pål KRAGERUD;KNS;X-37;Hyak
+12;NOR-15407;Truls SCHØYEN;SOON;Sun Od 349;Tiriltutt
+
+Doublehanded (Tristein)
+1;NOR-12488;Øyvind KNUDSEN;MOSS;First 34.7;Lethe
+2;NOR-8520;Sigvart SCHØNING-OLSEN;TØSF;FARR 31;Farracuda
+3;NOR-30048;Sigmund Andre HERTZBERG;TØSF;Dehler 30;Hyrrokkin
+4;NOR-13063;Ole AABEL;ASKR;Farr 30;Wii 2
+5;NOR-9256;Karl-Einar JENSEN;MOSS;X-412;Detox
+6;NOR-33003;Bjarne BIRKELAND;BÆRU;Sun Fast 3300;Sparrow
+7;NOR-14760;Håkon HJORTHØY;ASKR;Grand Soleil 43 BC;Illuminati
+8;NOR-15283;Kjetil TØRSETH;HURU;XP-44;Framtia
+9;NOR-12122;Anders HVERVEN;MOSS;Elan 410;Machbuster
+10;NOR-16220;Kristian JERPETJØN;NESO;Figaro 2;Tetraktys
+11;NOR-11541;Geir Inge JURIKS;KNS;J/109;JJFLASH
+12;SWE-6;Anders KUIKKA;GYC;XP-33;Coquette IV
+13;NOR-16085;Kristian NOTTO;KNS;Elan S5;Surfin Lady
+14;NOR-11512;Asbjørn NÆSS;LAVI;Dehler 36 SQ;Tolama
+15;NOR-10954;Carl Hjalmar KNAP;ASKR;Bavaria 38 Match;PuraVida
+16;NOR-15938;Per-Ola BAALERUD;KNS;SunFast 3300;Solitude
+17;NOR-10738;Morten NISSEN-LIE;KNS;ELAN 37;Mimoka
+17;NOR-12466;Jon MOHOLTH;TØSF;ELAN 37;Mia Mara
+17;NOR-15393;Erik LAWSON;FROG;Sun Fast 3200;Redline
+17;NOR-15449;Truls Holm OLSEN;MOSS;Arcona 380;Haffsårkesteret
+
+IF-Boat
+1;NOR-128;Robert BAY;FROG;IF-Boat;Madeleine
+2;NOR-63;Svein HEGLUND;ASKR;IF-Boat;Patricia ll
+3;NOR-220;Jan KOLBJØRNSEN;HURU;IF-Boat;Kalebass
+4;NOR-222;Steinar MOLLAN;ULLE;IF-Boat;Bananas
+5;NOR-105;Martin SMITH;HURU;IF-Boat;Mañana III
+6;NOR-211;Hilde THORESEN;FROG;IF-Boat;Lydia
+7;NOR-176;Bjørn ANDERSEN;OSLO;IF-Boat;Caprifol
+8;NOR-44;Henrik LUNDEN;KNS;IF-Boat;Firfirsla
+9;NOR-9;Thomas SVENDSEN;KNS;IF-Boat;IF
+
+Sportsbåt (Hollænder)
+1;NOR-192;Øyvind BANGSUND;BUND;Melges 24;Gudrun
+2;NOR-306;Steinar WALER;RØYK;MELGES 24 OD;Team 24/7
+3;NOR-26;Jorn E TOPPE;ASKR;Fareast 28R;Destin
+4;NOR-15689;Christian HUSE;FSEIL;Seascape 24;MAVERICK
+
+Albin Express
+1;NOR-2003;Thomas ELVIK;KNS;Albin Express;Thomas ELVIK
+2;NOR-759;Marius BAKKE;BUND;EXPRESS;Salacia
+3;NOR-755;Jostein MAGNUSSEN;OSLO;Albin Express;DNF4 Orca
+4;NOR-896;Aril SPETALEN;ULLE;Albin Express;Mariatta
+5;NOR-1007;Jessica BERGSTRAND;BUND;Albin Express;EXPRESSO Martini
+6;NOR-637;Jonas SØRLIE;NESO;Albin Express;Divertax
+7;NOR-021;Kjell KRISTOFFERSEN;BÆRU;Albin Express;Expresso
+8;N-23;Pål BLACK;MOSS;Albin Express;Black's Pearl
+9;NOR-535;Jan Ole NORDFJORD;SKØY;Express;musestille
+10;NOR-1099;Mats Andreas HVERVEN;KNS;Albin Express;Bobler
+11;NOR-972;Kari HANDELAND;MOSS;Albin Express;Overmot
+12;NOR-11;Petter AMUNDSEN;BÆRU;Albin Express;Skiathos
+12;NOR-1150;Trygve LEERGAARD;OSLO;Albin Express;Hvergang
+12;NOR-121;Endre Dörsch NOODT;OSLO;Albin Express;xania
+12;NOR-218;Ole Martin MOEN;BÆRU;Albin Express;Fomle
+12;NOR-022;Sturla FALCK;FROG;Albin Express;ELO
+
+Nor-Rating uten spinnaker
+1;NOR-157;Christian Skogheim MADSEN;TØSF;X-35;Hexagon
+2;NOR-12329;Bjørn LANGSEM;KNS;Hanse 371;Costa Mer
+3;NOR-13394;Jan MAGNUSSEN;HOLM;Elan 40 dyp kj›l;La Nina
+4;NOR-15565;Finn Erik BJERKE;DRAM;X4^3;Que Vadis V
+5;NOR-11731;Kristin Vold HJERPÅS;FRED;Sun Fast 35;SJØPØLSA
+6;NOR-10823;Torbjørn ERGON;NESO;Sun Fast 37;Hei-Tiki
+7;NOR-11124;Morten PERSSON;ASKR;42 Custom Cruiser;Mantra
+7;NOR-11289;Erling MYTTING;KNS;Sun Fast 37;Brisen III
+7;NOR-11361;Håkon J HELGE;BÆRU;Sun Od 35;CAOS
+7;NOR-11850;Vegard PETTERSEN;HOLM;C&C 115;Stella Rosso
+7;NOR-14548;Henning ESKELAND;BÆRU;Hanse 375;Kunna
+7;NOR-15469;Kristian ASLAKSRUD;SOON;Sun OD 39i;Kjærsten Vår
+7;NOR-16153;Ole-Henrik RAVN;ASKR;Bavaria 32;Stormhvalen
+7;NOR-9390;Kjetil ANDRESEN;HURU;DEHLER 41 Cr;Too Much
+
+Nor-Rating med spinnaker (Mefjord)
+1;NOR-11110;Wolfgang EICHSTETTER;ASKR;Krohn 97/Vision 32;Lupona
+2;NOR-14840;Jørn LARSEN;SASF;Sun Fast 37;La Linea
+3;NOR-5534;Johan MOHR;KNS;LINJETT 32 7/8;Johanne
+4;NOR-16170;Cecilie BAANN;BÆRU;Albin Vega;Pippi
+5;NOR-1572;Sjur IDSØE;KNS;J/80;Right to play
+6;NOR-7487;Svein Erik REFSNES;FROG;FENIX;Puffin 2
+7;NOR-16114;Stig ROLFSVÅG;MOSS;Spækhugger;Brus
+8;NOR-145;Tilo PFLEGER;OSLO;Knarr;Kismet
+9;NOR-563;Helene GRENNE;HORT;Mini 650 Zero;One More Toy
+10;NOR-8283;Jens PETERSEN;FROG;BANNER 28 LR;Magikarp
+11;NOR-11451;Lars MARKUSSEN;HAMA;Dufour 34 Performa;Snute
+12;NOR-1458;Helge PEDERSEN;MOSS;MAXI 87;Mira
+12;NOR-15926;Vibeke LIE;BUND;Dehler 34;Jolie
+12;NOR-16243;Morten STEFFENSEN;RISØ;Phobos 24;Lykkeliten
+12;NOR-3951;Ingrid FLADMARK;ÅLES;Albin Nova;Fryd V
+12;NOR-458;Ignacio HERNÁNDEZ;DSSF;Zero Mini transat 6.50;Gone with the wind
+12;NOR-5105;Rune SØGNEN;NESO;ALBIN DELTA;EIR
+
+Nor-Rating med spinnaker (Hollænder) Klasse 1
+1;NOR-5975;Sindre BAKKE;BUND;X-79;Brunhildur
+2;NOR-9974;Magne TØNNESEN;FRED;1/2 TON ONE OFF;Cantippa
+3;NOR-6938;Lars Christian BERGER;DSSF;MAXI 999;Havheksen
+4;NOR-2682;Tor Bjørn HANSEN;ASF;BAKKE 26;Priscilla
+4;NOR-3571;Birger SEVALDSON;TØSF;X-102 Mk I;Don Quixote
+4;NOR-3639;Juraj PALENIK;ÅSGÅ;ALBIN NOVA;Cecilie II
+4;NOR-427;Anders Trins FERMANN;TØSF;J/80;Jesss
+4;NOR-70;Nils Stousland PARNEMANN;ULLE;H-boat;NiPa
+4;NOR-9727;Egil NAUSTVIK;FROG;LINJETT 33;Fragancia
+
+Nor-Rating med spinnaker (Hollænder) Klasse 2
+1;NOR-151;Pål FIVE;KNS;11 Metre;Greenpeas
+2;NOR-10886;Christian GRIMSGAARD;FROG;J/92;Iggy
+3;NOR-317;Johnny HJERPSETH;KNS;11 Metre;The White Rabbit
+4;NOR-191;Erlend MUNKEBY;KNS;11 Metre;WaterGate
+5;NOR-0157;Philip ØSTLI ANDREASSEN;DRAM;11:Metre;Ugly
+6;NOR-10107;Trond GUNDERSEN;ASKR;FIRST 31.7 LR;JOY IV
+7;NOR-13372;Ole Fredrik MELLEBY;ASKR;First 31.7;Sana
+8;NOR-14784;Andreas ABILDGAARD;ULLE;Elan 310 2.15;Kårstua
+9;NOR-10750;Jon LIVERUD;BÆRU;ELAN 31;Duppen
+10;NOR-9322;Kjell ELLILA;TØSF;FIRST 31.7 LR;Tarzan
+11;NOR-9763;Bjørn Eirik OLSEN;TØSF;FIRST 31.7 LR;Wish
+12;NOR-10417;Bård JERVAN;LAVI;Elan 333;Mymlen
+13;NOR-13987;Tinius RUZICKA;Landøya Seil & Pils;Elan 310;Prospero
+14;NOR-7055;Joachim LYNG-OLSEN;ULLE;Contrast 33;Vildensky
+15;NOR-107;Pål Christian IVERSEN;KNS;11 Metre;Röda ormen
+16;NOR-10580;Eirik NORDLI;BUND;FIRST 27.7;STAKKATO
+17;NOR-11649;Siri SORTEBERG;ASKR;First 31.7;Sirene
+17;NOR-15366;Roger Johan PETTERSEN;ASKR;First 31.7;Amanda
+17;NOR-3192;Ole Rasmus UNDRUM;TØSF;FIRST 35;Kariette
+17;NOR-9666;Terje HELLEVE;DRAM;FIRST 31.7 LR;Sol
+17;NOR-9775;Jonas SMITT-AMUNDSEN;KNS;FIRST 31.7 LR;Bilbo
+
+Nor-Rating med spinnaker (Hollænder) Klasse 3
+1;NOR-12555;Tom SØMBORG;KNS;X-37;GØY
+2;NOR-10579;Svein Arild NILSEN;FRED;X-332;Exita
+3;NOR-15229;Arne SØRLIE;BÆRU;Dehler 38 13-;Winifi
+4;NOR-10494;Ove Megrund BARTHO;TØSF;Dufour 34 Standard;Bertha
+5;NOR-13946;Christian TOVERUD;BUND;Salona 34;Just 4 Fun
+6;NOR-9099;Stein LØVSTAD;FROG;First 33.7 dyp kjø;First One
+7;NOR-14221;Ottar BUE;ÅSGÅ;Sun OD 36i Perform;Sundance
+8;NOR-5898;Ragnar FJORAN;KNS;WASA 38 CR;Tigergutten
+9;NOR-95;Pål Einar BERNTSEN;MOSS;S&S 40;Norseman
+10;NOR-10616;Jens SCHAU-HANSEN;KNS;One Ton;Blue Note
+11;NOR-13924;Yngve LINDVIG;KNS;Hanse 430;Sjiraff
+12;NOR-11736;Herbrand BJØRGE;HURU;Bavaria 42 Match;MATCHO
+13;NOR-12512;Karl-Johan MALMBERG;ASKR;Elan 340;Endorfine
+14;NOR-12183;Aleksander ØREN;TØSF;Bavaria 39 Cr;Cooling
+15;NOR-10963;Runar SKAGESTAD;MAND;Dufour 34;Aurora
+16;NOR-11213;Arne ISAKSEN;BUND;Hanse 371;Xanthippe III
+16;NOR-11440;Ove André KVALNES;ULLE;Bavaria 35 Match;occasionè
+16;NOR-13348;Johan Chr HOVLAND;OSLO;Hanse 370;Andrik
+16;NOR-5849;Kim HEGLUND;KNS;COMPIS 36;Chakita
+16;NOR-7039;Jon Hemming MATHISEN;ÅSGÅ;SW YACHTS 36 CR;Frøken Fryd
+
+Nor-Rating med spinnaker (Tristein) Klasse 1
+1;NOR-16251;Eystein LYCHE;KNS;Italia 9.98;Luckys Wolf
+2;NOR-202;Martin MOE;KNS;X-35;Vortex
+3;NOR-10185;Jan Petter RØD;TØSF;DEHLER 36 JV;Fri av fjærholmen
+4;NOR-12575;Nils KAMFJORD;TØSF;X-34;Extase
+5;NOR-11405;Rune PEDERSEN;VÅGS;First 36.7;Tempo
+6;NOR-11197;Henning CARLSEN;BÆRU;FIRST 36.7;Mulen
+7;NOR-21;Bjørn VADHOLM;KNS;X-35 OD;Barcarole opus IV
+8;NOR-026;Marius ANDERSEN;FROG;Farr 30;Pakalolo II
+9;NOR-10745;Eivind Nysether TYTLANDSVIK;ÅSGÅ;First 36.7;Eowyn
+10;NOR-10180;Morten LYCKE;BÆRU;First 36.7;LUCKY LADY II
+11;NOR-14990;Dag TØNDER;KNS;Bavaria 35 Match;Mani
+12;NOR-22;Pål-André KJØNIKSEN;MOSS;X-35;Phoenix
+13;NOR-9884;Halvor SCHØYEN;TØSF;X-332;nn
+14;NOR-11555;Harald GELLEIN;STAV;First 36.7;Mithrandir
+15;NOR-14887;Jon HOLM;OSLO;J109;Jubel
+16;NOR-14037;Tobias BRODTKORB;HOLM;X-34;Slappa 3
+17;NOR-13882;Marius Frenvik ODBERG;LAVI;A 31;El Dragon III
+18;NOR-10482;Gunnar HOGSRØD;GÅSØ;FIRST 36.7 CR;#250
+18;NOR-10776;Jon Håvard ASKELAND;TØSF;SUN FAST 36;Christina
+18;NOR-11220;Morten SOLLERUD;ASKR;Bavaria 35 match;Saevitia
+18;NOR-12063;Ingvild OMA;Lillehammer seilforening;Sun Od 36i Perform;Indy
+18;NOR-13833;Pål BRATBAK;ÅSGÅ;A 35;Riders on the storm
+18;NOR-14064;Espen THØGERSEN;KNS;First 35 09-;Black Magic
+18;NOR-14415;Tore Glen BERG;ASKR;Elan 350;Green Magic
+18;NOR-14570;Steinar JØRGENSEN;DSSF;Elan 350;Marialene
+18;NOR-14777;Erlend HELI;DRAM;Elan 350 grunn kjø;Aava
+18;NOR-16138;Joakim NÆRØ;ASKR;Diva 34 SC;Wolpertinger
+18;NOR-16333;Anders WILHELMSEN;KNS;Brenta 34;AWanti
+18;NOR-9801;Stephen EDWARDSEN;GÅSØ;ELAN 333;Trigger
+
+Nor-Rating med spinnaker (Tristein) Klasse 2
+1;NOR-7006;Tommy BERGMAN;ASKR;Finngulf 39;Luringen
+2;NOR-10740;Snorre Strand ANDERSEN;BÆRU;Elan 40 dyp kjøl;Kuling
+3;NOR-13892;Eivind CARLSEN;FRED;Dehler 39 SQ;Bagheera
+4;NOR-12111;Eirik BJARGO;BÆRU;GRAND SOLEIL 40 C;Cebina
+5;NOR-16030;Claes ELIASSON;ASKR;BAVARIA C38;Spirit
+6;NOR-16104;John Harald HENRIKSEN;BÆRU;Arcona 345;Livlig
+7;NOR-11065;Nils BØE;GAND;Bavaria 38 Match;Tellus
+7;NOR-11733;Pål SALTVEDT;FROG;Elan 40;Jonna
+7;NOR-12379;Jan Fredrik HÅVIE;SOON;Hanse 400E;Ping
+7;NOR-12645;Svein Arild HILDRUM;ASKR;Swedestar 370;Trollfjord
+7;NOR-12789;Haagen HØLAAS;KNS;Sun OD 42I Perform;Sea Lemon
+7;NOR-13891;Johnny DOLVIK;BUND;Bavaria 40 Vision;Carisma
+7;NOR-14739;Steingrim BERSVENDSEN;BÆRU;Bavaria 40 Sport;Deidrès Samba IV
+7;NOR-14903;Emil ENGEBRIGTSEN;SANE;Salona 38;Seileren
+7;NOR-15722;Torbjørn ALMELAND;DRAM;Dehler 38c 13-;Shadow
+7;NOR-16214;Frode WIDME;Geilo Seilforening;Bavaria C42;Roxy
+7;NOR-9320;Eivind BOGERUD;BUND;BAVARIA 42 AC 98-0;Empire
+7;SWE-21;Christer KLÄTH;Strömstad Segelsällskap;Hanse 400e;Patrina
+
+Nor-Rating med spinnaker (Tristein) Klasse 3
+1;NOR-66;Sigurd TVEIT;KNS;X-41 mod;Xanadu
+2;ITA-487;Ana WINTHER;BUND;Melges 32;Hotshot
+3;SWE-8790;Per ASP;NESO;ILC 40;CarbonCave
+4;NOR-13697;Erik KRISTER;SASF;First 40;Flash V
+5;NOR-13540;Aasmund DROLSUM;BUND;King 40;Magic
+6;NOR-39;Magnus HEDEMARK;KNS;X-41;SailLogic
+7;NOR-16080;Henrik TANGEN;BREV;arcona 385;Ibb
+8;NOR-9100;Knut NYGAARD;STAV;BASHFORD 36;Virginia
+9;NOR-15666;Jon Sverre HOIDEN;BUND;Sinergia 40;Sons of Hurricanes
+10;NOR-11189;Henning HANSEN;DRAM;X-442 Mk I;piXeline
+11;NOR-85;Jørgen G HEJE;KNS;J/111;Dacapo
+12;NOR-40;Gustav GOTTEBERG;KNS;X-41;Gottix
+13;NOR-11172;Iver IVERSEN;NESO;Grand Soleil 42 R;Tango II
+14;NOR-4444;Hans WANG;KNS;X-40 Dyp kjøl;Kjappfot
+15;NOR-14643;Truls OLSEN;FRED;Dehler 41 SV DK;Begge Dehler
+16;NOR-15410;Einar Unhjem JOHANSEN;ASKR;Arcona 410;Blanke Arc ^2
+17;NOR-10116;Emil HAGAN;BÆRU;IMX 40;no eXcuse
+18;NOR-5859;Lars-Petter TRAA;ASKR;IMX 40;Idefix
+19;NOR-36;Andreas ENGELSTAD;OFJORD;X-41;Bareksten
+20;NOR-15461;Christian ØYE;TRHJ;Sun Fast 3600;Biceps
+21;NOR-10140;Arne HAMMERSLAND;BÆRU;IMX 40;DILL
+22;NOR-11735;Martin BORG;BÆRU;Bavaria 42 Match;Trimar 2
+23;NOR-10005;Helge MIDTGÅRD;SASF;GRAND SOLEIL 40 R;TURANGALILA
+23;NOR-10076;Christian HANSSON;BÆRU;SW YACHTS 45;Vagabond
+23;NOR-11046;Andreas HATLO;GÅSØ;Bavaria 42 Match;Intermezzo
+23;NOR-11169;Christian Stentoft ØSTBY;KNS;X-40;Noomi II
+23;NOR-12042;Christian HALL;KNS;X-43;Bjørnstjerne
+23;NOR-12538;Eivind BAKKE;BUND;Hanse 430;Masito
+23;NOR-14500;Stian MÆLAND;BUND;First 40;Mystique
+23;NOR-14628;Erik Johan Worsøe ERIKSEN;NESO;HP 1030;Vindfang
+23;NOR-14793;Anne-Grethe STAIB;BUND;Hanse 430;Råtass
+23;NOR-15411;Sverre LEFSAKER;HVAL;Fast 42;Mayhem
+23;NOR-15425;Bjørn DALEN;BÆRU;Arcona 380;Marlin
+23;NOR-15760;Andreas Frøseth AMUNDSEN;OPPE;Hanse 455;Ariel
+23;NOR-9770;Knut-Olav Brekke TOMTEN;BUND;FIRST 40.7;Teraπ
+
+Nor-Rating med spinnaker (Tristein) Klasse 5
+1;NOR-15144;Pål STIANSEN;ASKR;XP-44;Born to Run
+1;NOR-12243;Calle ANDERSEN;ASKR;Landmark 43;GAME
+3;NOR-15159;Øystein MISJE;HOLM;Shaw 9;Karma Police
+4;NOR-5019;Jan MUREN;ASKR;ClubSwan 50;Proxflyer
+5;NOR-15711;Ole Birger GIÆVER;TRHJ;Soto 40;UNO SISS
+6;NOR-9779;Per SKAARET;ASKR;X-50;Jokerman
+7;GER-7007;David MANHERZ;HVS;CARKEEK 47;STOERTEBEKER
+8;NOR-12545;Thomas ROBBERSTAD;STAV;SWAN 45;Zorro
+9;NOR-15811;Andreas JANSEN;KNS;Marten 49;Yani
+10;NOR-15560;Frode JOHANSEN;BREV;Aquatich 40;Snakkas
+11;NOR-14202;Anders GJESDAL;STAV;First 44.7;FRI FLYT
+12;NOR-16440;Vegard HEGGEM;BREV;XP44;Roccabella
+13;NOR-13853;Karine RØSTAD;KNS;IMX 45;philoXenia
+14;NOR-11211;Truls S JOHNSTAD-MØLLER;KNS;J/V 47;RAMBLER 77
+14;NOR-12050;Claus LANDMARK;KNS;X-50 (2.7);Xelene
+14;NOR-15044;Rune KRISTENSEN;ASKR;XP-44;siXpack
+14;NOR-9050;Jon LETTING;KNS;X-512;Lady XL
+
+Flerskrog
+1;NOR-357M;Hans Ulrik GRÜNERT;ASKR;Dragonfly 25 Sport;Wingman
+2;NOR-242M;Odd Marius ROSVOLD;VIFL;TRT 1200;Vaaghals
+3;NOR-320M;Line Katrin RØDSETH;NESO;Dreagonfly 32 Supreme;Ruffen
+4;NOR-337;Jan-Kristian VEDELER;TØSF;Dragon;SJAMAN
+4;NOR-283M;Petter M MOWINCKEL;ASKR;Fusion 40;Maggy VII
+4;NOR-296M;Johan HANSTEEN;HOLM;Flerskrog;KATLA
