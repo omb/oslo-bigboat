@@ -16,10 +16,13 @@ class CsvWriter : AbstractWriter() {
         try {
             val os = FileOutputStream(fileName)
             writer = CSVWriter(OutputStreamWriter(os, BigBoat.CHARSET), ';', CSVWriter.NO_QUOTE_CHARACTER)
-            writer.writeNext(raceResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray())
+            writer.writeNext(raceResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                .toTypedArray())
             var place = 1
             for (entry in BigBoat.getRaceResults()[race]!!) {
-                val line: Array<String> = entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+                val line: Array<String> =
+                    entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                        .toTypedArray()
                 writer.writeNext(addPlace(line, place))
                 place++
             }
@@ -38,10 +41,13 @@ class CsvWriter : AbstractWriter() {
         try {
             val os = FileOutputStream(fileName)
             writer = CSVWriter(OutputStreamWriter(os, BigBoat.CHARSET), ';', CSVWriter.NO_QUOTE_CHARACTER)
-            writer.writeNext(seriesResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray())
+            writer.writeNext(seriesResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                .toTypedArray())
             var place = 1
             for (entry in list) {
-                val line: Array<String> = entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+                val line: Array<String> =
+                    entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                        .toTypedArray()
                 writer.writeNext(addPlace(line, place))
                 place++
             }
@@ -60,10 +66,13 @@ class CsvWriter : AbstractWriter() {
         try {
             val os = FileOutputStream(fileName)
             writer = CSVWriter(OutputStreamWriter(os, BigBoat.CHARSET), ';', CSVWriter.NO_QUOTE_CHARACTER)
-            writer.writeNext(clubsResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray())
+            writer.writeNext(clubsResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                .toTypedArray())
             var place = 1
             for (entry in list) {
-                val line: Array<String> = entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+                val line: Array<String> =
+                    entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                        .toTypedArray()
                 writer.writeNext(addPlace(line, place))
                 place++
             }

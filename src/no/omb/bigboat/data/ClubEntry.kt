@@ -4,9 +4,9 @@ import no.omb.bigboat.BigBoat
 import java.text.DecimalFormat
 
 data class ClubEntry(
-        val club: String,
-        var score: Double = 0.0,
-        var numScores: Int = 0
+    val club: String,
+    var score: Double = 0.0,
+    var numScores: Int = 0
 ) : Comparable<ClubEntry> {
 
     override fun toString(): String {

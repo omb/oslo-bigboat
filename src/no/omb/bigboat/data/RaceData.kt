@@ -1,8 +1,8 @@
 package no.omb.bigboat.data
 
 data class RaceData(
-        val dataFileName: String,
-        val dataFileType: DataFileType
+    val dataFileName: String,
+    val dataFileType: DataFileType
 ) {
     enum class DataFileType {
         SEILMAG_CSV,
@@ -20,15 +20,15 @@ data class RaceData(
 
     companion object {
         val races = arrayOf(
-                //RaceData("Bjørvikasprinten", DataFileType.M2S_CSV),
-                RaceData("Isbrytern", DataFileType.M2S_CSV),
-                RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
-                RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
-                RaceData("Færderseilasen", DataFileType.M2S_CSV3),
-                //RaceData("Øyseilasen", DataFileType.M2S_CSV2),
-                //RaceData("Håøya Rundt", DataFileType.M2S_CSV2),
-                //RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),
-                //RaceData("Nesodden Høstcup", DataFileType.M2S_CSV3)
+            //RaceData("Bjørvikasprinten", DataFileType.M2S_CSV),
+            RaceData("Isbrytern", DataFileType.M2S_CSV),
+            RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
+            RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
+            RaceData("Færderseilasen", DataFileType.M2S_CSV3),
+            //RaceData("Øyseilasen", DataFileType.M2S_CSV2),
+            //RaceData("Håøya Rundt", DataFileType.M2S_CSV2),
+            //RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),
+            //RaceData("Nesodden Høstcup", DataFileType.M2S_CSV3)
         )
     }
 }

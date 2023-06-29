@@ -4,10 +4,10 @@ import no.omb.bigboat.BigBoat
 import java.text.DecimalFormat
 
 data class RaceEntry(
-        var boat: Boat? = null,
-        var placeNo: Int = 0,
-        var classSize: Int = 0,
-        var score: Double = 0.0
+    var boat: Boat? = null,
+    var placeNo: Int = 0,
+    var classSize: Int = 0,
+    var score: Double = 0.0
 ) : Comparable<RaceEntry> {
     fun applyValues(entry: RaceEntry) {
         boat = entry.boat

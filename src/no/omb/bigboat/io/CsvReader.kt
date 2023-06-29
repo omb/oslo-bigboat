@@ -67,32 +67,57 @@ class CsvReader : DataReader {
             when (race!!.dataFileType) {
                 DataFileType.SEILMAG_CSV4 -> {
                     entry.placeNo = col[0].toInt()
-                    entry.boat = Boat(col[1], col[2], col[3], col[4].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0], col[4].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[1])
+                    entry.boat = Boat(
+                        col[1],
+                        col[2],
+                        col[3],
+                        col[4].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0],
+                        col[4].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[1]
+                    )
                 }
+
                 DataFileType.SEILMAG_CSV3 -> {
                     entry.placeNo = col[0].toInt()
-                    entry.boat = Boat(col[1], col[2], col[3], col[8].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0], col[8].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[1])
+                    entry.boat = Boat(
+                        col[1],
+                        col[2],
+                        col[3],
+                        col[8].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0],
+                        col[8].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[1]
+                    )
                 }
+
                 DataFileType.SEILMAG_CSV2 -> {
                     entry.placeNo = col[0].toInt()
-                    entry.boat = Boat(col[1], col[2], col[3], col[9].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0], col[9].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[1])
+                    entry.boat = Boat(
+                        col[1],
+                        col[2],
+                        col[3],
+                        col[9].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[0],
+                        col[9].split(" \\(".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()[1]
+                    )
                 }
+
                 DataFileType.M2S_CSV -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[2], col[3], col[4], col[5])
                 }
+
                 DataFileType.M2S_CSV2 -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[2], col[5], col[3], col[4])
                 }
+
                 DataFileType.M2S_CSV3 -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[5], col[4], col[2], col[3])
                 }
+
                 DataFileType.ULLERN_CSV -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[3] + "-" + col[4], col[6], col[5], col[1], col[2])
                 }
+
                 else -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[2], col[5], col[3], col[4])

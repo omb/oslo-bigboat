@@ -56,26 +56,32 @@ class HtmlReader : DataReader {
         if (isSummary2) {
             val place = cols[0].text()
             entry.placeNo = place.substring(0, place.length - 2).toInt()
-            entry.boat = Boat(cols[2].text() + "-" + cols[3].text(),
-                    cols[4].text(),
-                    cols[5].text(),
-                    cols[6].text(),
-                    cols[7].text())
+            entry.boat = Boat(
+                cols[2].text() + "-" + cols[3].text(),
+                cols[4].text(),
+                cols[5].text(),
+                cols[6].text(),
+                cols[7].text()
+            )
         } else if (isSummary) {
             val place = cols[0].text()
             entry.placeNo = place.substring(0, place.length - 2).toInt()
-            entry.boat = Boat(cols[2].text().replace(' ', '-'),
-                    cols[3].text(),
-                    cols[4].text(),
-                    cols[5].text(),
-                    cols[6].text())
+            entry.boat = Boat(
+                cols[2].text().replace(' ', '-'),
+                cols[3].text(),
+                cols[4].text(),
+                cols[5].text(),
+                cols[6].text()
+            )
         } else {
             entry.placeNo = cols[0].text().toInt()
-            entry.boat = Boat(cols[2].text() + "-" + cols[3].text(),
-                    cols[5].text(),
-                    cols[4].text(),
-                    cols[6].text(),
-                    cols[7].text())
+            entry.boat = Boat(
+                cols[2].text() + "-" + cols[3].text(),
+                cols[5].text(),
+                cols[4].text(),
+                cols[6].text(),
+                cols[7].text()
+            )
         }
         entry.classSize = classSize
         entry.score = entry.placeNo * SeriesEntry.SCORE_FACTOR * 1.0 / classSize

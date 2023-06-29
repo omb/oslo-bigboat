@@ -29,10 +29,12 @@ class ConsoleWriter : AbstractWriter() {
     fun logSeries() {
         val list = BigBoat.sortedSeries
         var place = 1
-        println("""
+        println(
+            """
     Sammenlagt, $strykningerString
     ===========================
-    """.trimIndent())
+    """.trimIndent()
+        )
         for (seriesEntry in list) {
             println("" + place + BigBoat.SEP + seriesEntry)
             ++place

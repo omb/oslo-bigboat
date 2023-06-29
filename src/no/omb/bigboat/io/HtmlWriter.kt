@@ -17,20 +17,36 @@ class HtmlWriter : AbstractWriter() {
             writer.println("<h1>Indre Oslofjord Bigboat Cup og KM i Norrating " + BigBoat.YEAR + "</h1>")
             writer.println("<h2>Resultater sammenlagt $regattaerString, $strykningerString</h2>")
             writer.println("<table>")
-            writeSeriesResultHtmlRow(writer = writer, isHeader = true, alt = false, columns = seriesResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray())
+            writeSeriesResultHtmlRow(
+                writer = writer,
+                isHeader = true,
+                alt = false,
+                columns = seriesResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                    .toTypedArray()
+            )
             var place = 1
             for (entry in seriesList) {
-                val line: Array<String> = entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+                val line: Array<String> =
+                    entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                        .toTypedArray()
                 writeSeriesResultHtmlRow(writer, false, place % 2 == 0, addPlace(line, place))
                 place++
             }
             writer.println("</table>")
             writer.println("<h2>Beste seilforening</h2>")
             writer.println("<table>")
-            writeSeriesResultHtmlRow(writer = writer, isHeader = true, alt = false, columns = clubsResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray())
+            writeSeriesResultHtmlRow(
+                writer = writer,
+                isHeader = true,
+                alt = false,
+                columns = clubsResultHeader.split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                    .toTypedArray()
+            )
             place = 1
             for (entry in clubList) {
-                val line: Array<String> = entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+                val line: Array<String> =
+                    entry.toString().split(BigBoat.SEP.toString().toRegex()).dropLastWhile { it.isEmpty() }
+                        .toTypedArray()
                 writeSeriesResultHtmlRow(writer, false, place % 2 == 0, addPlace(line, place))
                 place++
             }

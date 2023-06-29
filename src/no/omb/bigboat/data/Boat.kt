@@ -4,11 +4,11 @@ import no.omb.bigboat.BigBoat
 import java.util.*
 
 data class Boat(
-        val sailNo: String,
-        val boatName: String,
-        val boatType: String,
-        val skipper: String,
-        val club: String
+    val sailNo: String,
+    val boatName: String,
+    val boatType: String,
+    val skipper: String,
+    val club: String
 ) {
     override fun hashCode(): Int {
         val prime = 31
