@@ -113,6 +113,11 @@ class CsvReader : DataReader {
                     entry.boat = Boat(col[1], col[5], col[4], col[2], col[3])
                 }
 
+                DataFileType.M2S_CSV4 -> {
+                    entry.placeNo = col[0].toInt()
+                    entry.boat = Boat(col[1], col[3], col[5], col[2], col[4])
+                }
+
                 DataFileType.ULLERN_CSV -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[3] + "-" + col[4], col[6], col[5], col[1], col[2])

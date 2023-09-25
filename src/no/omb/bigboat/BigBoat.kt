@@ -14,7 +14,7 @@ object BigBoat {
     const val CHARSET = "UTF-8"
     const val SEP = ';'
     const val CLUB_MAX_SCORES = 5
-    const val CANCELS = 2
+    const val CANCELS = 3
     private val raceResults: MutableMap<RaceData, List<RaceEntry>> = HashMap()
     private val seriesEntries: MutableMap<Boat, SeriesEntry> = HashMap()
     private val clubEntries: MutableMap<String, ClubEntry> = HashMap()
@@ -109,7 +109,7 @@ object BigBoat {
     private fun getDataReader(race: RaceData): DataReader {
         return when (race.dataFileType) {
             DataFileType.SAILWAVE_RACE_HTML, DataFileType.SAILWAVE_SUMMARY_HTML, DataFileType.SAILWAVE_SUMMARY2_HTML -> HtmlReader.instance
-            DataFileType.SEILMAG_CSV, DataFileType.SEILMAG_CSV2, DataFileType.SEILMAG_CSV3, DataFileType.SEILMAG_CSV4, DataFileType.ULLERN_CSV, DataFileType.M2S_CSV, DataFileType.M2S_CSV2, DataFileType.M2S_CSV3 -> CsvReader.instance
+            DataFileType.SEILMAG_CSV, DataFileType.SEILMAG_CSV2, DataFileType.SEILMAG_CSV3, DataFileType.SEILMAG_CSV4, DataFileType.ULLERN_CSV, DataFileType.M2S_CSV, DataFileType.M2S_CSV2, DataFileType.M2S_CSV3, DataFileType.M2S_CSV4 -> CsvReader.instance
         }
     }
 }
