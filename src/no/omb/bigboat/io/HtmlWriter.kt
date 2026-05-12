@@ -14,7 +14,7 @@ class HtmlWriter : AbstractWriter() {
         try {
             writer = PrintWriter(fileName, BigBoat.CHARSET)
             writeSeriesResultHtmlOpen(writer)
-            writer.println("<h1>Indre Oslofjord Bigboat Cup og KM i Norrating " + BigBoat.YEAR + "</h1>")
+            writer.println("<h1>OAS Cup og KM i NOR-Rating " + BigBoat.YEAR + "</h1>")
             writer.println("<h2>Resultater sammenlagt $regattaerString, $strykningerString</h2>")
             writer.println("<table>")
             writeSeriesResultHtmlRow(

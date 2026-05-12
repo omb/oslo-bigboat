@@ -14,6 +14,7 @@ data class RaceData(
         M2S_CSV2,
         M2S_CSV3,
         M2S_CSV4,
+        M2S_CSV5,
         SAILWAVE_RACE_HTML,
         SAILWAVE_SUMMARY_HTML,
         SAILWAVE_SUMMARY2_HTML
@@ -21,18 +22,19 @@ data class RaceData(
 
     companion object {
         val races = arrayOf(
-            //RaceData("Bjørvikasprinten", DataFileType.M2S_CSV),
-            RaceData("Isbrytern", DataFileType.M2S_CSV),
-            RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
-            RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
-            RaceData("Færderseilasen", DataFileType.M2S_CSV3),
-            RaceData("Grillcup", DataFileType.M2S_CSV3),
-            RaceData("Håøya Rundt", DataFileType.M2S_CSV3),
-            RaceData("Asker Rundt", DataFileType.M2S_CSV3),
-            RaceData("Hollænderseilasen", DataFileType.M2S_CSV3),
+            RaceData("Bundefjorden Rundt", DataFileType.M2S_CSV5),
+            RaceData("Bjørvikasprinten", DataFileType.M2S_CSV3),
+            //RaceData("Isbrytern", DataFileType.M2S_CSV),
+            //RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
+            //RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
+            //RaceData("Færderseilasen", DataFileType.M2S_CSV3),
+            //RaceData("Grillcup", DataFileType.M2S_CSV3),
+            //RaceData("Håøya Rundt", DataFileType.M2S_CSV3),
+            //RaceData("Asker Rundt", DataFileType.M2S_CSV3),
+            //RaceData("Hollænderseilasen", DataFileType.M2S_CSV3),
             //RaceData("Øyseilasen", DataFileType.M2S_CSV2),
-            RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),
-            RaceData("Nesodden Høstcup", DataFileType.M2S_CSV4)
+            //RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),
+            //RaceData("Nesodden Høstcup", DataFileType.M2S_CSV4)
         )
     }
 }
