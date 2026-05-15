@@ -84,7 +84,7 @@ object BigBoat {
     val sortedClubs: List<ClubEntry>
         get() {
             val list: MutableList<ClubEntry> = ArrayList()
-            list.addAll(clubEntries.values)
+            list.addAll(clubEntries.values.filter { it.club != "--" })
             list.sort()
             return list
         }

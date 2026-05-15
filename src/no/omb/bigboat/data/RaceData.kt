@@ -24,7 +24,8 @@ data class RaceData(
         val races = arrayOf(
             RaceData("Bundefjorden Rundt", DataFileType.M2S_CSV5),
             RaceData("Bjørvikasprinten", DataFileType.M2S_CSV3),
-            //RaceData("Isbrytern", DataFileType.M2S_CSV),
+            RaceData("Isbrytern", DataFileType.M2S_CSV),
+            RaceData("Skagen Offshore Race", DataFileType.M2S_CSV3),
             //RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
             //RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
             //RaceData("Færderseilasen", DataFileType.M2S_CSV3),
