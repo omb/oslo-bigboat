@@ -15,6 +15,7 @@ data class RaceData(
         M2S_CSV3,
         M2S_CSV4,
         M2S_CSV5,
+        M2S_CSV6,
         SAILWAVE_RACE_HTML,
         SAILWAVE_SUMMARY_HTML,
         SAILWAVE_SUMMARY2_HTML
@@ -23,10 +24,10 @@ data class RaceData(
     companion object {
         val races = arrayOf(
             RaceData("Bundefjorden Rundt", DataFileType.M2S_CSV5),
-            RaceData("Bjørvikasprinten", DataFileType.M2S_CSV3),
+            RaceData("Bjørvikasprinten", DataFileType.M2S_CSV6),
             RaceData("Isbrytern", DataFileType.M2S_CSV),
-            RaceData("Skagen Offshore Race", DataFileType.M2S_CSV3),
-            //RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
+            RaceData("Skagen Offshore Race", DataFileType.M2S_CSV6),
+            RaceData("Oslofjorden Rundt", DataFileType.M2S_CSV3),
             //RaceData("Bundefjorden Vårcup", DataFileType.M2S_CSV3),
             //RaceData("Færderseilasen", DataFileType.M2S_CSV3),
             //RaceData("Grillcup", DataFileType.M2S_CSV3),

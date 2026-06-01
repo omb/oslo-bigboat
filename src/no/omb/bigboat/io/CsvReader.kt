@@ -120,7 +120,12 @@ class CsvReader : DataReader {
 
                 DataFileType.M2S_CSV5 -> {
                     entry.placeNo = col[0].toInt()
-                    entry.boat = Boat(col[1], col[5], col[3], col[2], col[4])
+                    entry.boat = Boat(col[1], col[3], col[5], col[2], col[4])
+                }
+
+                DataFileType.M2S_CSV6 -> {
+                    entry.placeNo = col[0].toInt()
+                    entry.boat = Boat(col[1], col[4], col[5], col[2], col[3])
                 }
 
                 DataFileType.ULLERN_CSV -> {

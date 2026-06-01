@@ -7,7 +7,7 @@ import java.io.PrintWriter
 
 class HtmlWriter : AbstractWriter() {
     fun writeSeriesResultHtml() {
-        val fileName = BigBoat.RESULTS + "/" + "IndreOslofjordBigBoatSeries" + BigBoat.YEAR + ".html"
+        val fileName = BigBoat.RESULTS + "/" + "OAS-Cup" + BigBoat.YEAR + ".html"
         val seriesList = BigBoat.sortedSeries
         val clubList = BigBoat.sortedClubs
         val writer: PrintWriter
