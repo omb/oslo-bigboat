@@ -64,8 +64,7 @@ object BigBoat {
         }
         for (clubEntry in clubEntries.values) {
             if (clubEntry.numScores < CLUB_MAX_SCORES) {
-                clubEntry.score =
-                    clubEntry.score + (CLUB_MAX_SCORES - clubEntry.numScores) * SeriesEntry.DEFAULT_SCORE * RaceData.races.size
+                clubEntry.score += (CLUB_MAX_SCORES - clubEntry.numScores) * SeriesEntry.DEFAULT_SCORE * RaceData.races.size
             }
         }
     }

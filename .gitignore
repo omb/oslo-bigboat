@@ -1,5 +1,6 @@
 bin/
 classes/
+target/
 results-*/
 *~
 .DS_Store
