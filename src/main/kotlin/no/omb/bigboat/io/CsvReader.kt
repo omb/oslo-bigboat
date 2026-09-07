@@ -98,31 +98,31 @@ class CsvReader : DataReader {
                     )
                 }
 
+                // 0: Place, 1: Sail no, 2: Boat name, 3: Boat type, 4: Skipper, 5: Club
                 DataFileType.M2S_CSV -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[2], col[3], col[4], col[5])
                 }
 
+                // 0: Place, 1: Sail no, 2: Boat name, 3: Skipper, 4: Club, 5: Boat type
                 DataFileType.M2S_CSV2 -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[2], col[5], col[3], col[4])
                 }
 
+                // 0: Place, 1: Sail no, 2: Skipper, 3: Club, 4: Boat type, 5: Boat name
                 DataFileType.M2S_CSV3 -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[5], col[4], col[2], col[3])
                 }
 
+                // 0: Place, 1: Sail no, 2: Skipper, 3: Boat name, 4: Club, 5: Boat type
                 DataFileType.M2S_CSV4 -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[3], col[5], col[2], col[4])
                 }
 
-                DataFileType.M2S_CSV5 -> {
-                    entry.placeNo = col[0].toInt()
-                    entry.boat = Boat(col[1], col[3], col[5], col[2], col[4])
-                }
-
+                // 0: Place, 1: Sail no, 2: Skipper, 3: Club, 4: Boat name, 5: Boat type
                 DataFileType.M2S_CSV6 -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[1], col[4], col[5], col[2], col[3])
@@ -131,6 +131,12 @@ class CsvReader : DataReader {
                 DataFileType.ULLERN_CSV -> {
                     entry.placeNo = col[0].toInt()
                     entry.boat = Boat(col[3] + "-" + col[4], col[6], col[5], col[1], col[2])
+                }
+
+                // 0: Place, 1: Sail no, 2: Boat type, 3: Boat name, 4: Skipper, 5: Club
+                DataFileType.DROBAK_CSV -> {
+                    entry.placeNo = col[0].toInt()
+                    entry.boat = Boat(col[1], col[3], col[2], col[4], col[5])
                 }
 
                 else -> {
