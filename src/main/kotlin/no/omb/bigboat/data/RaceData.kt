@@ -32,7 +32,7 @@ data class RaceData(
             RaceData("Færderseilasen", DataFileType.M2S_CSV4),
             //RaceData("Grillcup", DataFileType.M2S_CSV3),
             //RaceData("Håøya Rundt", DataFileType.M2S_CSV3),
-            RaceData("Asker Rundt", DataFileType.M2S_CSV3),
+            RaceData("Asker Rundt", DataFileType.M2S_CSV2),
             RaceData("Hollænderseilasen", DataFileType.M2S_CSV3),
             //RaceData("Øyseilasen", DataFileType.M2S_CSV2),
             //RaceData("SætreKruset", DataFileType.SEILMAG_CSV4),
