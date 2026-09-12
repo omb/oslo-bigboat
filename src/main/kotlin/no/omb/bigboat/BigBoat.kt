@@ -14,7 +14,7 @@ object BigBoat {
     const val CHARSET = "UTF-8"
     const val SEP = ';'
     const val CLUB_MAX_SCORES = 5
-    const val CANCELS = 0
+    const val CANCELS = 2
     private val raceResults: MutableMap<RaceData, List<RaceEntry>> = HashMap()
     private val seriesEntries: MutableMap<Boat, SeriesEntry> = HashMap()
     private val clubEntries: MutableMap<String, ClubEntry> = HashMap()
