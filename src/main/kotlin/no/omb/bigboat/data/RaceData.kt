@@ -36,7 +36,7 @@ data class RaceData(
             RaceData("Hollænderseilasen", DataFileType.M2S_CSV3),
             //RaceData("Øyseilasen", DataFileType.M2S_CSV2),
             RaceData("SætreKruset", DataFileType.M2S_CSV2),
-            //RaceData("Nesodden Høstcup", DataFileType.M2S_CSV4)
+            RaceData("Nesodden Høstcup", DataFileType.M2S_CSV4)
         )
     }
 }
